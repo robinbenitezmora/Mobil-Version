@@ -1,62 +1,33 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
+# Mobil Version Skeleton
 
-# Project Name
-
-> Description the project.
+>
+This project shows how to make a toolbar and headline section on the basis of file Microverse-Figma Template 1.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML5/CSS.
+- Visual Studio Code.
+- Figma
 
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
 
 ### Install
+Feel free to clone the repository at this URL: https://github.com/robinbenitezmora/Mobil-Version-Skeleton
 
-### Usage
+On the other hand the Microverse-Figma templates URL: https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=39%3A122
 
-### Run tests
-
-### Deployment
-
-
+Any suggestion is welcome.
 
 ## Authors
 
-👤 **Author1**
+ **Robin Benitez Mora**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+GitHub: https://github.com/robinbenitezmora
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
+LinkedIn: https://www.linkedin.com/in/robin-benitez-mora-manizales/
 
 Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
@@ -64,9 +35,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+I thank Microverse for allowing me to use their template.
 
 ## 📝 License
 
