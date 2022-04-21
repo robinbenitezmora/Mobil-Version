@@ -30,7 +30,7 @@ header {
 body {
   background-image: url("./images/first-background.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position-y: 40px;
 }
 
@@ -679,7 +679,7 @@ p {
 /*=======================================================================*/
 
 .sixth-sheet {
-  display: flex;
+  display: grid;
   flex-direction: column;
 }
 
@@ -727,6 +727,49 @@ p {
   color: #396df2;
 }
 
+.sixth-sheet__developer {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 24px;
+}
+
+.sixth-sheet__languages {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+  margin-bottom: 45px;
+}
+
+.sixth-sheet__languages{
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+}
+
+.sixth-sheet__languages-union {
+  display: flex;
+  height: 8px;
+  margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 .sixth-sheet__languages {
   display: flex;
   flex-direction: column;
@@ -773,7 +816,7 @@ p {
   margin-bottom: 12px;
 }
 
-.sixth-sheet__tool-text {
+span {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
