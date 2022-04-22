@@ -445,16 +445,6 @@ p {
   margin: 0.1px 16px;
 }
 
-.footer__button {
-  display: grid;
-  grid-area: 2 / 1 / 5 / 5;
-  align-items: center;
-  margin: 1.2rem 0.1px;
-  border: 1px solid #6070ff;
-  box-sizing: border-box;
-  border-radius: 8px;
-}
-
 .sixth-sheet {
   display: grid;
   flex-direction: column;
@@ -634,7 +624,6 @@ span {
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
-  /*align-items: center;*/
   color: #172b4d;
 }
 
