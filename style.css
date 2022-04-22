@@ -100,13 +100,13 @@ p {
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
-  margin: 0 16px;
+  margin: 0.1px 16px;
 }
 
 .second-sheet__area-frame {
   display: flex;
   align-items: center;
-  margin: 12px 0;
+  margin: 12px 0.1px;
 }
 
 .second-sheet__area-frame-canopy {
@@ -141,7 +141,7 @@ p {
   font-size: 15px;
   line-height: 24px;
   color: #344563;
-  margin: 0 16px;
+  margin: 0.1px 16px;
 }
 
 .footer {
@@ -174,7 +174,7 @@ p {
   padding: 4px;
   background: #ebebff;
   border-radius: 8px;
-  margin: 0 8px;
+  margin: 0.1px 8px;
 }
 
 .footer__languages-css {
@@ -184,7 +184,7 @@ p {
   padding: 4px;
   background: #ebebff;
   border-radius: 8px;
-  margin: 0 8px;
+  margin: 0.1px 8px;
 }
 
 .footer__languages-javascript {
@@ -194,14 +194,14 @@ p {
   padding: 4px;
   background: #ebebff;
   border-radius: 8px;
-  margin: 0 8px;
+  margin: 0.1px 8px;
 }
 
 .footer__button {
   display: grid;
   grid-area: 2 / 1 / 5 / 5;
   align-items: center;
-  margin: 1.2rem 0;
+  margin: 1.2rem 0.1px;
   border: 1px solid #6070ff;
   box-sizing: border-box;
   border-radius: 8px;
@@ -215,7 +215,7 @@ p {
   height: 60px;
   color: #fff;
   border: 1px solid red;
-  background-color: blue;
+  background-color:blue;
   border-radius: 8px;
   margin: 12px 24px;
 }
@@ -261,13 +261,13 @@ p {
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
-  margin: 0 16px;
+  margin: 0.1px 16px;
 }
 
 .third-sheet__area-frame {
   display: flex;
   align-items: center;
-  margin: 12px 0;
+  margin: 12px 0.1px;
 }
 
 .third-sheet__area-frame-canopy {
@@ -302,7 +302,7 @@ p {
   font-size: 15px;
   line-height: 24px;
   color: #344563;
-  margin: 0 16px;
+  margin: 0.1px 16px;
 }
 
 .footer__button {
