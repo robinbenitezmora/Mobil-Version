@@ -305,16 +305,6 @@ p {
   margin: 0.1px 16px;
 }
 
-.footer__button {
-  display: grid;
-  grid-area: 2 / 1 / 5 / 5;
-  align-items: center;
-  margin: 1.2rem 0.1px;
-  border: 1px solid #6070ff;
-  box-sizing: border-box;
-  border-radius: 8px;
-}
-
 .fourth-sheet {
   background-color: #e5e5e5;
   padding: 44px 24px;
@@ -383,16 +373,6 @@ p {
   line-height: 24px;
   color: #344563;
   margin: 0.1px 16px;
-}
-
-.footer__button {
-  display: grid;
-  grid-area: 2 / 1 / 5 / 5;
-  align-items: center;
-  margin: 1.2rem 0.1px;
-  border: 1px solid #6070ff;
-  box-sizing: border-box;
-  border-radius: 8px;
 }
 
 .fifth-sheet {
@@ -564,7 +544,6 @@ p {
 
 span {
   display: flex;
-  /*display: flex;*/
   flex-direction: row;
   justify-self: flex-start;
   align-items: center;
@@ -682,7 +661,7 @@ span {
   border-radius: 8px;
   margin: 22px 24px 45px 24px;
 }
-  
+
 .seventh-sheet__button-text {
   display: flex;
   justify-content: center;
