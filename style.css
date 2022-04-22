@@ -94,7 +94,7 @@ p {
 
 .second-sheet__area-title {
   display: flex;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -111,7 +111,7 @@ p {
 
 .second-sheet__area-frame-canopy {
   display: flex;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -126,7 +126,7 @@ p {
 }
 
 .second-sheet__area-frame-BackEndDev {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -135,7 +135,7 @@ p {
 }
 
 .second-sheet__paragraph {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -158,7 +158,7 @@ p {
 }
 
 .footer__languages-text {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -224,7 +224,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -235,8 +235,6 @@ p {
   color: #396df2;
   text-decoration: none;
 }
-
-/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
 .third-sheet {
   background-color: #e5e5e5;
@@ -258,7 +256,7 @@ p {
 
 .third-sheet__area-title {
   display: flex;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -275,7 +273,7 @@ p {
 
 .third-sheet__area-frame-canopy {
   display: flex;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -290,7 +288,7 @@ p {
 }
 
 .third-sheet__area-frame-BackEndDev {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -299,7 +297,7 @@ p {
 }
 
 .third-sheet__paragraph {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -322,7 +320,7 @@ p {
 }
 
 .footer__languages-text {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -375,7 +373,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -386,8 +384,6 @@ p {
   color: #396df2;
   text-decoration: none;
 }
-
-/*========================================================*/
 
 .fourth-sheet {
   background-color: #e5e5e5;
@@ -409,7 +405,7 @@ p {
 
 .fourth-sheet__area-title {
   display: flex;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -426,7 +422,7 @@ p {
 
 .fourth-sheet__area-frame-canopy {
   display: flex;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -441,7 +437,7 @@ p {
 }
 
 .fourth-sheet__area-frame-BackEndDev {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -450,7 +446,7 @@ p {
 }
 
 .fourth-sheet__paragraph {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -473,7 +469,7 @@ p {
 }
 
 .footer__languages-text {
-  font-family: 'Poppins';
+  font-family: 'Poppins',sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -526,7 +522,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -537,8 +533,6 @@ p {
   color: #396df2;
   text-decoration: none;
 }
-
-/*=======================================================================*/
 
 .fifth-sheet {
   background-color: #e5e5e5;
@@ -560,7 +554,7 @@ p {
 
 .fifth-sheet__area-title {
   display: flex;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -577,7 +571,7 @@ p {
 
 .fifth-sheet__area-frame-canopy {
   display: flex;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -592,7 +586,7 @@ p {
 }
 
 .fifth-sheet__area-frame-BackEndDev {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -601,7 +595,7 @@ p {
 }
 
 .fifth-sheet__paragraph {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -624,7 +618,7 @@ p {
 }
 
 .footer__languages-text {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -677,7 +671,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -688,8 +682,6 @@ p {
   color: #396df2;
   text-decoration: none;
 }
-
-/*=======================================================================*/
 
 .sixth-sheet {
   display: grid;
@@ -866,7 +858,7 @@ span {
   justify-content: start;
   align-items: center;
   padding: 4px 18px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
