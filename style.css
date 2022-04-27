@@ -616,7 +616,7 @@ span {
   width: max-content;
   width: 327px;
   height: 48px;
-  margin: 0px 24px 20px 24px;
+  margin: 0.1px 24px 20px 24px;
   background: #fff;
   border-radius: 10px;
 }
@@ -632,8 +632,8 @@ span {
   font-size: 17px;
   line-height: 20px;
   align-items: center;
-  color: #172B4D;
-  text-justify:distribute-all-lines;
+  color: #172b4d;
+  text-justify: distribute-all-lines;
   outline: none;
   cursor: pointer;
 }
@@ -653,15 +653,15 @@ span {
 }
 
 .form__button-area--size {
-    display: grid;
-    justify-content: start;
-    align-items:flex-start;
-    width: 327px;
-    height: 170px;
-    margin: 0px 24px 20px 24px;
-    background: #fff;
-    border-radius: 10px;
-  }
+  display: grid;
+  justify-content: start;
+  align-items: flex-start;
+  width: 327px;
+  height: 170px;
+  margin: 0.1px 24px 20px 24px;
+  background: #fff;
+  border-radius: 10px;
+}
 
 .seventh-sheet__button {
   display: flex;
