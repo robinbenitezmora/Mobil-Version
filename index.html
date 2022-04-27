@@ -160,19 +160,12 @@
   <section class="seventh-sheet">
     <h2 class="seventh-sheet__contact-me">Contact me</h2>
     <p class="seventh-sheet__paragraph">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-    <form action="/">
-      <label for="name">
-          <input class="form__button-area form__button-text" type="text" id="name" placeholder="Your name">
-      </label>
-      <label for="e-mail">
-        <input class="form__button-area form__button-text" type="email" id="e-mail" placeholder="user_name@mail.com">
-        </label>
-      <label for="message-area">
-          <input class="form__button-area--size form__button-text" type="text" id="message-area" placeholder="Write your message here">
-      </label>
-      <a href="#" class="seventh-sheet__button seventh-sheet__button-text">Get It Touch</a>
+    <form action="https://formspree.io/f/{form_id}" class="form" method="post">
+      <input class="form__field-area form__field-text" name="name" type="text" id="name" maxlength="30" placeholder="Your name" required>
+      <input class="form__field-area form__field-text" name="email" type="email" id="e-mail" placeholder="user_name@mail.com" required>
+      <textarea class="form__field-area-message" name="area" id="area" cols="30" rows="10" maxlength="500" placeholder="Write your message here" required></textarea>
+      <submit href="#" class="seventh-sheet__button seventh-sheet__button-text">Get It Touch</submit>
       <div class="end-line"><img src="./images/end-line.png" alt="end-line"></div>
-    </form>
-  </section>
+    </section>
 </body>
 </html>

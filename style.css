@@ -205,6 +205,8 @@ p {
   border: 1px solid #6070ff;
   box-sizing: border-box;
   border-radius: 8px;
+  width: 124px;
+  height: 48px;
 }
 
 .footer__button:hover {
@@ -602,20 +604,25 @@ span {
   margin-bottom: 50px;
 }
 
-.form__button-area {
-  display: grid;
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__field-area {
+  display: flex;
   justify-content: center;
   align-items: center;
   width: max-content;
   width: 327px;
   height: 48px;
-  margin: 0.1px 24px 20px 24px;
+  margin: 0px 24px 20px 24px;
   background: #fff;
   border-radius: 10px;
 }
 
-.form__button-text {
-  display: grid;
+.form__field-text {
+  display: flex;
   justify-content: start;
   align-items: center;
   padding: 4px 18px;
@@ -624,19 +631,37 @@ span {
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
-  color: #172b4d;
+  align-items: center;
+  color: #172B4D;
+  text-justify:distribute-all-lines;
+  outline: none;
+  cursor: pointer;
 }
 
-.form__button-area--size {
-  display: grid;
-  justify-content: start;
-  align-items: flex-start;
+.form__field-area-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
   width: 327px;
   height: 170px;
   margin: 0.1px 24px 20px 24px;
   background: #fff;
   border-radius: 10px;
+  padding: 15px;
+  cursor: pointer;
 }
+
+.form__button-area--size {
+    display: grid;
+    justify-content: start;
+    align-items:flex-start;
+    width: 327px;
+    height: 170px;
+    margin: 0px 24px 20px 24px;
+    background: #fff;
+    border-radius: 10px;
+  }
 
 .seventh-sheet__button {
   display: flex;
@@ -647,10 +672,23 @@ span {
   height: 48px;
   top: 5317px;
   background: #fff;
-  border-radius: 8px;
+  border-radius: 8px;  
   margin: 22px 24px 45px 24px;
 }
 
+.seventh-sheet__button:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 60px;
+  color: #fff;
+  border: 1px solid red;
+  background-color: blue;
+  border-radius: 8px;
+  margin: 12px 24px;
+}
+  
 .seventh-sheet__button-text {
   display: flex;
   justify-content: center;
