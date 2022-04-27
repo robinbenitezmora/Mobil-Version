@@ -205,6 +205,8 @@ p {
   border: 1px solid #6070ff;
   box-sizing: border-box;
   border-radius: 8px;
+  width: 124px;
+  height: 48px;
 }
 
 .footer__button:hover {
@@ -602,8 +604,13 @@ span {
   margin-bottom: 50px;
 }
 
-.form__button-area {
-  display: grid;
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__field-area {
+  display: flex;
   justify-content: center;
   align-items: center;
   width: max-content;
@@ -614,8 +621,8 @@ span {
   border-radius: 10px;
 }
 
-.form__button-text {
-  display: grid;
+.form__field-text {
+  display: flex;
   justify-content: start;
   align-items: center;
   padding: 4px 18px;
@@ -625,6 +632,22 @@ span {
   font-size: 17px;
   line-height: 20px;
   color: #172b4d;
+  outline: none;
+  cursor: pointer;
+}
+
+.form__field-area-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+  width: 327px;
+  height: 170px;
+  margin: 0.1px 24px 20px 24px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  cursor: pointer;
 }
 
 .form__button-area--size {
@@ -647,8 +670,22 @@ span {
   height: 48px;
   top: 5317px;
   background: #fff;
-  border-radius: 8px;
+  border: 1px solid blue;
+  border-radius: 10px;
   margin: 22px 24px 45px 24px;
+}
+
+.seventh-sheet__button:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 60px;
+  color: #fff;
+  border: 1px solid red;
+  background-color: blue;
+  border-radius: 8px;
+  margin: 12px 24px;
 }
 
 .seventh-sheet__button-text {
