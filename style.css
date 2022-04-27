@@ -631,9 +631,7 @@ span {
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
-  
   color: #172b4d;
-  
   outline: none;
   cursor: pointer;
 }
@@ -673,7 +671,7 @@ span {
   top: 5317px;
   background: #fff;
   border: 1px solid blue;
-  border-radius: 10px;  
+  border-radius: 10px;
   margin: 22px 24px 45px 24px;
 }
 
@@ -689,7 +687,7 @@ span {
   border-radius: 8px;
   margin: 12px 24px;
 }
-  
+
 .seventh-sheet__button-text {
   display: flex;
   justify-content: center;
