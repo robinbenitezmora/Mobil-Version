@@ -161,18 +161,14 @@
     <h2 class="seventh-sheet__contact-me">Contact me</h2>
     <p class="seventh-sheet__paragraph">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
     <form action="/">
-      <label for="name">
-          <input class="form__button-area form__button-text" type="text" id="name" placeholder="Your name">
-      </label>
-      <label for="e-mail">
-        <input class="form__button-area form__button-text" type="email" id="e-mail" placeholder="user_name@mail.com">
-        </label>
-      <label for="message-area">
-          <input class="form__button-area--size form__button-text" type="text" id="message-area" placeholder="Write your message here">
-      </label>
-      <a href="#" class="seventh-sheet__button seventh-sheet__button-text">Get It Touch</a>
-      <div class="end-line"><img src="./images/end-line.png" alt="end-line"></div>
+          <input class="form__button-area form__button-text" type="text" id="name" placeholder="Your name" maxlength="30" required>
+          <input class="form__button-area form__button-text" type="email" id="e-mail" placeholder="user_name@mail.com" required>
+          <input class="form__button-area--size form__button-text" type="text" id="message-area" placeholder="Write your message here" maxlength="500" required>
+  
+          <input type="button" class="seventh-sheet__button" value="Get It Touch">
+
     </form>
+    <div class="end-line"><img src="./images/end-line.png" alt="end-line"></div>
   </section>
 </body>
 </html>

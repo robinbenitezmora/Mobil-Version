@@ -651,19 +651,9 @@ span {
   margin: 22px 24px 45px 24px;
 }
 
-.seventh-sheet__button-text {
-  display: flex;
-  justify-content: center;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  color: #396df2;
-  margin-bottom: 32px;
+.seventh-sheet__button:hover {
+  background-color: green;
+  border: 20px;
 }
 
 .end-line {
