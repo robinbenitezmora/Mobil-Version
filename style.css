@@ -677,6 +677,7 @@ span {
 }
 
 .seventh-sheet__button:hover {
+<<<<<<< HEAD
   display: flex;
   justify-content: center;
   align-items: center;
@@ -702,6 +703,10 @@ span {
   text-decoration: none;
   color: #396df2;
   margin-bottom: 32px;
+=======
+  background-color: green;
+  border: 20px;
+>>>>>>> 89d6add97c757f66d7ea66616ba166e1b89e1735
 }
 
 .end-line {
