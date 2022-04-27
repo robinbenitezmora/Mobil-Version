@@ -631,9 +631,9 @@ span {
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
-  align-items: center;
+  
   color: #172b4d;
-  text-justify: distribute-all-lines;
+  
   outline: none;
   cursor: pointer;
 }
@@ -672,7 +672,8 @@ span {
   height: 48px;
   top: 5317px;
   background: #fff;
-  border-radius: 8px;  
+  border: 1px solid blue;
+  border-radius: 10px;  
   margin: 22px 24px 45px 24px;
 }
 
