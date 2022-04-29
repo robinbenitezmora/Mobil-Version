@@ -6,9 +6,24 @@
 
 header {
   display: flex;
-  flex-direction: column;
-  min-width: 375px;
-  max-width: 1500px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 3rem;
+  margin-bottom: 2rem;
+}
+
+.menu {
+  display: flex;
+  width: 259px;
+  height: 2.5rem;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.25rem;
 }
 
 .header2 {
@@ -89,6 +104,8 @@ p {
 }
 
 .second-sheet__area-big-image {
+  display: flex;
+  align-items: center;
   margin: 16px;
 }
 
@@ -306,6 +323,36 @@ p {
   color: #344563;
   margin: 0.1px 16px;
 }
+
+.language {
+  display: inline;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 12px;
+  background-color: #ebebff;
+  border-radius: 0.5rem;
+  margin-top: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.portfolio__multi-post-second-list{
+  display: flex;
+  flex-direction: row;
+  justify-items: auto;
+  align-items: center;
+  width: 24rem;
+  height: 1.5rem;
+  margin-top: 1.5rem;
+  list-style: none;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+}
+
 
 .fourth-sheet {
   background-color: #e5e5e5;
