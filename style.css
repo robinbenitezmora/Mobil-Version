@@ -225,8 +225,8 @@ body {
   width: 124px;
   height: 48px;
   position: relative;
-  animation-name: "robin";
-  animation-duration: 5s;
+  animation-name: robin;
+  animation-duration: 10s;
   animation-iteration-count: 3;
   animation-direction: alternate-reverse;  
 }
