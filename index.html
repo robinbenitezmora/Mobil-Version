@@ -14,9 +14,9 @@
   <div class="logo"><a href="#"><img src="./images/logo.png" alt="logo"></a></div>
   <nav>
     <div class="menu">
-      <a href="#"><span>Portfolio</span></a>
-      <a href="#"><span>About</span></a>
-      <a href="#"><span>Contact</span></a>
+      <a class="menu__topics" href="#"><span>Portfolio</span></a>
+      <a class="menu__topics" href="#"><span>About</span></a>
+      <a class="menu__topics" href="#"><span>Contact</span></a>
     </div>
   </nav>
 </header>
@@ -177,10 +177,13 @@
     <h2 class="seventh-sheet__contact-me">Contact me</h2>
     <p class="seventh-sheet__paragraph">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
     <form action="https://formspree.io/f/" class="form" method="post">
-      <input class="form__field-area form__field-text" name="name" type="text" id="name" maxlength="30" placeholder="Your name" required>
-      <input class="form__field-area form__field-text" name="email" type="email" id="e-mail" placeholder="user_name@mail.com" required>
-      <textarea class="form__field-area-message" name="area" id="area" cols="30" rows="10" maxlength="500" placeholder="Write your message here" required></textarea>
-      <button type="submit" class="seventh-sheet__button seventh-sheet__button-text">Get It Touch</button>
+      <img class="form__image" src="./images/contact-form-background.svg" alt="background-form">
+      <div class="form__data">
+        <input class="form__field-area form__field-text" name="name" type="text" id="name" maxlength="30" placeholder="Your name" required>
+        <input class="form__field-area form__field-text" name="email" type="email" id="e-mail" placeholder="user_name@mail.com" required>
+        <textarea class="form__field-area-message" name="area" id="area" cols="30" rows="10" maxlength="500" placeholder="Write your message here" required></textarea>
+        <button type="submit" class="seventh-sheet__button seventh-sheet__button-text">Get It Touch</button>
+      </div>
     </form>
       <div class="end-line"><img src="./images/end-line.png" alt="end-line"></div>
   </section>

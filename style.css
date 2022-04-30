@@ -26,6 +26,10 @@ header {
   line-height: 1.25rem;
 }
 
+.menu__topics {
+  text-decoration: none;
+}
+
 .header2 {
   display: flex;
   justify-content: space-between;
@@ -674,9 +678,24 @@ span {
   margin-bottom: 50px;
 }
 
+.form__data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: -750px;
+}
+
+.form__image {
+  position: relative;
+  top: -180px;
+}
+
 .form {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .form__field-area {
