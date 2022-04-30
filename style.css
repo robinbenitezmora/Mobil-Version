@@ -109,6 +109,16 @@ body {
   margin: 16px;
 }
 
+.second-sheet__area-big-image:hover {
+  animation: robin 1s;
+}
+
+@keyframes robin {
+  100% {
+    transform: translate(30%);
+  }
+}
+
 .second-sheet__area-title {
   display: flex;
   font-family: 'Poppins', sans-serif;
@@ -225,10 +235,6 @@ body {
   width: 124px;
   height: 48px;
   position: relative;
-  animation-name: robin;
-  animation-duration: 10s;
-  animation-iteration-count: 3;
-  animation-direction: alternate-reverse;
 }
 
 .footer__button:hover {
@@ -839,10 +845,3 @@ span {
   }
 }
 
-@keyframes robin {
-  0% {background-color: aqua; left: 0.1px; top: 0.1px; }
-  25% {background-color: crimson; left: 50px; top: 0.1px; }
-  50% {background-color: chartreuse; left: 50px; top: 50px; }
-  75% {background-color: coral; left: 0.1px; top: 50px; }
-  100% {background-color: gold; left: 0.1px; top: 0.1px; }
-}
