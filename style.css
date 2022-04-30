@@ -228,7 +228,7 @@ body {
   animation-name: robin;
   animation-duration: 10s;
   animation-iteration-count: 3;
-  animation-direction: alternate-reverse;  
+  animation-direction: alternate-reverse;
 }
 
 .footer__button:hover {
@@ -274,10 +274,10 @@ body {
 }
 
 .third-sheet__area-big-image {
-    display: flex;
-    align-items: center;
-    margin: 16px;
-  }
+  display: flex;
+  align-items: center;
+  margin: 16px;
+}
 
 .third-sheet__area-title {
   display: flex;
@@ -342,10 +342,10 @@ body {
   margin-right: 0.5rem;
 }
 
-.portfolio__multi-post-second-list{
+.portfolio__multi-post-second-list {
   display: flex;
   flex-direction: row;
-  justify-items: auto;
+  justify-items:center;
   align-items: center;
   width: 24rem;
   height: 1.5rem;
@@ -836,9 +836,9 @@ span {
 }
 
 @keyframes robin {
-  0%   {background-color:aqua; left:0.1px; top:0.1px;}
-  25%  {background-color:crimson; left:50px; top:0.1px;}
-  50%  {background-color:chartreuse; left:50px; top:50px;}
-  75%  {background-color:coral; left:0.1px; top:50px;}
-  100% {background-color:gold; left:0.1px; top:0.1px;}
+  0% {background-color: aqua; left: 0.1px; top: 0.1px;}
+  25% {background-color: crimson; left: 50px; top: 0.1px;}
+  50% {background-color: chartreuse; left: 50px; top: 50px;}
+  75% {background-color: coral; left: 0.1px; top: 50px;}
+  100% {background-color: gold; left: 0.1px; top: 0.1px;}
 }
