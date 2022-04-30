@@ -815,8 +815,8 @@ span {
   }
 
   .second-sheet__area, 
-  .third-sheet__area, 
-  .fourth-sheet__area, 
+  .third-sheet__area,
+  .fourth-sheet__area,
   .fifth-sheet__area {
     flex-direction: row;
     justify-content: space-between;
@@ -829,12 +829,12 @@ span {
     width: 50%;
   }
 
-  .second-sheet__area-big-image, 
+  .second-sheet__area-big-image,
   .fourth-sheet__area-big-image {
     width: 50%;
   }
 
-  .third-sheet__area-big-image, 
+  .third-sheet__area-big-image,
   .fifth-sheet__area-big-image {
     width: 50%;
     flex-direction: row-reverse;
