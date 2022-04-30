@@ -646,14 +646,15 @@ span {
 .seventh-sheet {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  max-width: max-content;
+  height: 1275px;
+  justify-items: center;
   align-items: center;
   background-image: url("./images/blue-background.png");
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: 114px;
   text-align: center;
+  padding-top: 200px;
 }
 
 .seventh-sheet__contact-me {
@@ -669,6 +670,13 @@ span {
 }
 
 .seventh-sheet__paragraph {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.1px 30px;
+  width: 400px;
+  height: 150px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -687,8 +695,8 @@ span {
 }
 
 .form__image {
-  position: relative;
-  top: -180px;
+  display: flex;
+  flex-direction: column;
 }
 
 .form {
@@ -703,7 +711,7 @@ span {
   justify-content: center;
   align-items: center;
   width: max-content;
-  width: 327px;
+  width: 400px;
   height: 48px;
   margin: 0.1px 24px 20px 24px;
   background: #fff;
@@ -730,7 +738,7 @@ span {
   justify-content: center;
   align-items: center;
   width: max-content;
-  width: 327px;
+  width: 400px;
   height: 170px;
   margin: 0.1px 24px 20px 24px;
   background: #fff;
@@ -861,5 +869,15 @@ span {
 
   .sixth-sheet-developer {
     flex-direction: row;
+  }
+
+  .seventh-sheet__paragraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.1px 30px;
+    width: 700px;
+    height: 150px;
   }
 }
