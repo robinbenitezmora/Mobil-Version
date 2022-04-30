@@ -6,9 +6,24 @@
 
 header {
   display: flex;
-  flex-direction: column;
-  min-width: 375px;
-  max-width: 1500px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 2rem;
+  margin-bottom: 2rem;
+}
+
+.menu {
+  display: flex;
+  width: 100%;
+  height: 2.5rem;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.25rem;
 }
 
 .header2 {
@@ -25,13 +40,6 @@ header {
 
 .header2__menu {
   margin-right: 32px;
-}
-
-body {
-  background-image: url("./images/first-background.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position-y: 40px;
 }
 
 h1 {
@@ -53,6 +61,13 @@ p {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
+}
+
+body {
+  background-image: url("./images/header-mobile@2x.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-y: 70px;
 }
 
 .first-sheet__subtitle {
@@ -80,8 +95,8 @@ p {
 }
 
 .second-sheet__area {
-  display: grid;
-  grid-auto-flow: row;
+  display: flex;
+  flex-direction: column;
   background-color: #fff;
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
@@ -89,7 +104,19 @@ p {
 }
 
 .second-sheet__area-big-image {
+  display: flex;
+  align-items: center;
   margin: 16px;
+}
+
+.second-sheet__area-big-image:hover {
+  animation: robin 1s;
+}
+
+@keyframes robin {
+  100% {
+    transform: translate(30%);
+  }
 }
 
 .second-sheet__area-title {
@@ -207,6 +234,7 @@ p {
   border-radius: 8px;
   width: 124px;
   height: 48px;
+  position: relative;
 }
 
 .footer__button:hover {
@@ -243,8 +271,8 @@ p {
 }
 
 .third-sheet__area {
-  display: grid;
-  grid-auto-flow: row;
+  display: flex;
+  flex-direction: column;
   background-color: #fff;
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
@@ -252,6 +280,8 @@ p {
 }
 
 .third-sheet__area-big-image {
+  display: flex;
+  align-items: center;
   margin: 16px;
 }
 
@@ -307,14 +337,43 @@ p {
   margin: 0.1px 16px;
 }
 
+.language {
+  display: inline;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 12px;
+  background-color: #ebebff;
+  border-radius: 0.5rem;
+  margin-top: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.portfolio__multi-post-second-list {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+  width: 24rem;
+  height: 1.5rem;
+  margin-top: 1.5rem;
+  list-style: none;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+}
+
 .fourth-sheet {
   background-color: #e5e5e5;
   padding: 44px 24px;
 }
 
 .fourth-sheet__area {
-  display: grid;
-  grid-auto-flow: row;
+  display: flex;
+  flex-direction: column;
   background-color: #fff;
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
@@ -383,8 +442,8 @@ p {
 }
 
 .fifth-sheet__area {
-  display: grid;
-  grid-auto-flow: row;
+  display: flex;
+  flex-direction: column;
   background-color: #fff;
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
@@ -448,7 +507,12 @@ p {
 }
 
 .sixth-sheet {
-  display: grid;
+  display: flex;
+  flex-direction: column;
+}
+
+.sixth-sheet__about_me {
+  display: flex;
   flex-direction: column;
 }
 
@@ -510,7 +574,7 @@ p {
 }
 
 .sixth-sheet__developer {
-  display: grid;
+  display: flex;
   flex-direction: column;
   list-style: none;
   margin: 0 24px;
@@ -554,6 +618,11 @@ span {
   margin-right: 30px;
 }
 
+.sixth-sheet-languages {
+  display: flex;
+  flex-direction: column;
+}
+
 .sixth-sheet__developer-language-boxes {
   display: flex;
   height: 67px;
@@ -571,7 +640,8 @@ span {
 }
 
 .seventh-sheet {
-  display: inline-grid;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   max-width: max-content;
   align-items: center;
@@ -708,4 +778,69 @@ span {
   justify-content: center;
   align-items: center;
   margin-bottom: 8px;
+}
+
+@media (min-width: 768px) {
+  .first-sheet {
+    margin: 15rem 16.25rem 28rem 16.25rem;
+  }
+
+  .sixth-sheet {
+    display: flex;
+    flex-direction: row;
+    margin: 142px;
+  }
+
+  .sixth-sheet__about_me {
+    width: 28rem;
+    height: auto;
+  }
+
+  .sixth-sheet__about-myself {
+    margin: 0.1px 24px;
+  }
+
+  .sixth-sheet-languages {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .sixth-sheet__developer-language-boxes {
+    display: flex;
+    flex-direction: column;
+    width: 122px;
+    height: 120px;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+
+  .second-sheet__area,
+  .third-sheet__area,
+  .fourth-sheet__area,
+  .fifth-sheet__area {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 71px 142px;
+  }
+
+  article {
+    flex-direction: column;
+    width: 50%;
+  }
+
+  .second-sheet__area-big-image,
+  .fourth-sheet__area-big-image {
+    width: 50%;
+  }
+
+  .third-sheet__area-big-image,
+  .fifth-sheet__area-big-image {
+    width: 50%;
+    flex-direction: row-reverse;
+  }
+
+  .sixth-sheet-developer {
+    flex-direction: row;
+  }
 }
