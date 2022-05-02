@@ -2,7 +2,7 @@
 # Mobil Version
 
 >
-This project shows how to make a complete mobil page version applying styles and our knowledge acquired so far with Microverse.
+This project shows how to make a complete portfolio version applying styles and our knowledge acquired so far with Microverse.
 
 
 ## Built With
@@ -10,6 +10,7 @@ This project shows how to make a complete mobil page version applying styles and
 - HTML5/CSS.
 - Visual Studio Code.
 - Figma
+- GitHub
 
 
 ### Install
@@ -24,6 +25,8 @@ Any suggestion is welcome.
  **Robin Benitez Mora**
 
 GitHub: https://github.com/robinbenitezmora
+
+GitHub Pages deployed: https://robinbenitezmora.github.io/Mobil-Version/
 
 LinkedIn: https://www.linkedin.com/in/robin-benitez-mora-manizales/
 
