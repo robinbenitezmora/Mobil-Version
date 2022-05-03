@@ -880,4 +880,8 @@ span {
     width: 700px;
     height: 150px;
   }
+
+  .img:hover {
+    transform: scale(1.5);
+  }
 }
