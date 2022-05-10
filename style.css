@@ -27,7 +27,7 @@ header {
 }
 
 #slide_menu.active {
-  left: 0px;
+  left: -0.1px;
   pointer-events: auto;
 }
 
@@ -47,7 +47,6 @@ header {
   color: #e5e5e5;
   text-decoration: none;
 }
-
 
 .menu {
   display: flex;
