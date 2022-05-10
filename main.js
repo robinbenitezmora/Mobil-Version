@@ -1,5 +1,4 @@
-let btn = document.querySelector('.toggle-btn');
-
-btn.addEventListener('click', function() {
-  document.getElementById('menu').classList.toggle('active');
+const mobile = document.querySelector('menu__icon');
+mobile.addEventListener('click', function () {
+  document.addEventListener('slide_menu').classList.toggle('active');
 });

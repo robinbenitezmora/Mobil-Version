@@ -13,6 +13,31 @@ header {
   margin-bottom: 2rem;
 }
 
+#slide_menu {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  height: 100%;
+  width: 375px;
+  position: fixed;
+  /*left: -375;*/
+  background: red;
+  padding: 1rem 2rem;
+  left: -375px;
+  transition: all 500ms linear;
+}
+
+#slide_menu.active {
+  left: 0px;
+}
+
+#slide_menu .btn {
+  position: absolute;
+  left: 16rem;
+  top: 5rem;
+  cursor: pointer;
+}
+
 .menu {
   display: flex;
   width: 100%;
@@ -28,6 +53,7 @@ header {
 
 .menu__topics {
   text-decoration: none;
+  color: #fff;
 }
 
 .header2 {
