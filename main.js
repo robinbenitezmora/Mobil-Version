@@ -12,4 +12,3 @@ const close2 = document.querySelector('.cls');
 close2.addEventListener('click', () => {
   document.getElementById('slide_menu').classList.toggle('inactive');
 });
-
