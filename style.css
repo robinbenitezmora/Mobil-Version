@@ -24,6 +24,9 @@ header {
   left: -375px;
   background: #6070ff;
   transition: all 1000ms linear;
+  padding-top: 4rem;
+  padding-left: 2rem;
+  opacity: 0.9;
 }
 
 #slide_menu.active {
@@ -37,11 +40,10 @@ header {
 
 .cls {
   position: absolute;
-  top: 20px;
-  right: 40px;
+  top: 2.5rem;
+  right: 2.5rem;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: 700;
   font-size: 24px;
   line-height: 1.25rem;
   color: #e5e5e5;
@@ -65,8 +67,6 @@ header {
   flex-direction: column;
   justify-content: start;
   align-items: flex-start;
-  margin-left: 2rem;
-  margin-top: 6rem;
   list-style: none;
 }
 
@@ -81,6 +81,12 @@ header {
   text-decoration: none;
   color: #fff;
   list-style: none;
+  margin-bottom: 2rem;
+}
+
+.menu__icon.active {
+  left: -0.1px;
+  pointer-events: auto;
 }
 
 .header2 {

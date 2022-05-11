@@ -1,14 +1,10 @@
 const open = document.querySelector('.menu__icon');
 open.addEventListener('click', () => {
-  document.getElementById('slide_menu').classList.toggle('active');
+  document.getElementById('slide_menu').classList.add('active');
 });
 
-const close = document.querySelector('.items');
+const close = document.querySelector('#slide_menu');
 close.addEventListener('click', () => {
-  document.getElementById('slide_menu').classList.toggle('inactive');
+  document.getElementById('slide_menu').classList.remove('active');
 });
 
-const close2 = document.querySelector('.cls');
-close2.addEventListener('click', () => {
-  document.getElementById('slide_menu').classList.toggle('inactive');
-});
