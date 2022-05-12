@@ -13,9 +13,15 @@ header {
   margin-bottom: 2rem;
 }
 
+.menu_desktop {
+  position: absolute;
+  left: -700px;
+}
+
 #slide_menu {
   display: flex;
   flex-direction: column;
+  backdrop-filter: blur(5px);
   justify-content: flex-start;
   align-items: flex-start;
   height: 100%;
@@ -26,7 +32,7 @@ header {
   transition: all 1000ms linear;
   padding-top: 4rem;
   padding-left: 2rem;
-  opacity: 0.9;
+  mix-blend-mode: multiply;
 }
 
 #slide_menu.active {
@@ -866,6 +872,19 @@ span {
   margin-bottom: 8px;
 }
 
+@media (min-width: 376px) {
+  .menu__icon {
+    opacity: 0;
+  }
+
+.items {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: flex-start;
+  list-style: none;
+}
+
 @media (min-width: 768px) {
   .first-sheet {
     margin: 15rem 16.25rem 28rem 16.25rem;
@@ -940,6 +959,7 @@ span {
     height: 150px;
   }
 
+  /*
   .menu {
     display: flex;
     width: 100%;
@@ -956,5 +976,5 @@ span {
   .menu__topics {
     text-decoration: none;
   }
-  
+*/
 }
