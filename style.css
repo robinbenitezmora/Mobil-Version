@@ -886,14 +886,14 @@ span {
     opacity: 0;
   }
 
-.items {
-  display: flex;
-  flex-direction: row;
-  justify-content: start;
-  align-items: flex-start;
-  list-style: none;
+  .items {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: flex-start;
+    list-style: none;
+  }
 }
-
 .menu {
   display: flex;
   width: 100%;
@@ -985,7 +985,6 @@ span {
     height: 150px;
   }
 
-  /*
   .menu {
     display: flex;
     width: 100%;
@@ -1002,5 +1001,4 @@ span {
   .menu__topics {
     text-decoration: none;
   }
-*/
 }
