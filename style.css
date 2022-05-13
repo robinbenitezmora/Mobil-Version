@@ -17,7 +17,7 @@ header {
   display: flex;
   flex-direction: row;
   backdrop-filter: blur(5px);
-  justify-content:space-around;
+  justify-content: space-around;
   align-items: flex-start;
   height: 350rem;
   width: 100%;
@@ -37,7 +37,7 @@ header {
 }
 
 .cls {
-  position:initial;
+  position: initial;
   top: 4.5rem;
   right: 2.5rem;
   font-family: 'Poppins', sans-serif;
@@ -60,7 +60,7 @@ header {
   font-size: 15px;
   line-height: 1.25rem;
   transform: scale(0);
-  }
+}
 
 .menu__icon {
   position: absolute;
@@ -762,9 +762,9 @@ span {
 }
 
 .form__image {
- position: absolute;
- right: 1rem;
- bottom: -302rem;
+  position: absolute;
+  right: 1rem;
+  bottom: -302rem;
 }
 
 .form {
@@ -881,18 +881,18 @@ span {
     transform: scale(0);
   }
 
-   .menu {
-    display: flex;
-    flex-direction: row;
-    height: 2.5rem;
-    justify-content: space-between;
-    align-items: center;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 1.25rem;
-    transform: scale(1);
+  .menu {
+  display: flex;
+  flex-direction: row;
+  height: 2.5rem;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.25rem;
+  transform: scale(1);
   }
 }
 
