@@ -8,18 +8,30 @@
   <link rel="stylesheet" href="./style.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
-<header>
-  <div class="logo"><a href="#"><img src="./images/logo.png" alt="logo"></a></div>
-  <nav>
-    <div class="menu">
-      <a class="menu__topics" href="#"><span>Portfolio</span></a>
-      <a class="menu__topics" href="#"><span>About</span></a>
-      <a class="menu__topics" href="#"><span>Contact</span></a>
+  <div id="slide_menu">
+    <div>
+      <ul class="items">
+        <li><a class="menu__topics" href="#portfolio">Portfolio</a></li>
+        <li><a class="menu__topics" href="#about">About</a></li>
+        <li><a class="menu__topics" href="#contact">Contact</a></li>
+      </ul>
     </div>
-  </nav>
-</header>
+    <div><a href="#" class="cls">&times;</a></div>
+  </div>
+  <header>
+    <div class="logo"><a href="#"><img src="./images/logo.png" alt="logo"></a></div>
+    <nav>
+      <div class="menu">
+        <a class="menu__topics" href="#portfolio"><span>Portfolio</span></a>
+        <a class="menu__topics" href="#about"><span>About</span></a>
+        <a class="menu__topics" href="#contact"><span>Contact</span></a>
+      </div>
+    </nav>
+  </header> 
+  <a href="#" class="menu__icon"><img src="./icons/menu.png" alt="general-menu"></a> 
   <section class="first-sheet">
     <h1>I’m Robin<br>Glad to see you!</h1>
     <p>I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
@@ -32,9 +44,9 @@
       <li><a href="#"><img class="img" src="./icons/rabbit.svg" alt="rabbit"></a></li>
     </ul>
   </section>
-  <section class="second-sheet">
+  <section class="second-sheet" id="portfolio">
     <section class="second-sheet__area">
-      <img class="second-sheet__area-big-image" src="./images/tonic.png" alt="tonic">
+      <img class="second-sheet__area-big-image" src="./images/tonic.svg" alt="tonic">
       <article>
         <h2 class="second-sheet__area-title">Tonic</h2>
         <div class="second-sheet__area-frame">
@@ -83,7 +95,7 @@
   </section>
   <section class="fourth-sheet">
     <section class="fourth-sheet__area">
-      <img class="fourth-sheet__area-big-image" src="./images/big-image.png" alt="flexible-woman-image">
+      <img class="fourth-sheet__area-big-image" src="./images/photo-portfolio.svg" alt="flexible-woman-image">
       <article>
         <h2 class="fourth-sheet__area-title">Facebook 360</h2>
         <div class="fourth-sheet__area-frame">
@@ -130,7 +142,7 @@
       <img class="fifth-sheet__area-big-image" src="./images/big-image2.png" alt="personal-image">
     </section>
    </section>
-  <section class="sixth-sheet">
+  <section class="sixth-sheet" id="about">
     <article class="sixth-sheet__about_me">
       <h2 class="sixth-sheet__about-myself">About<br>Myself</h2>
       <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
@@ -173,11 +185,10 @@
       </div>
     </div>
   </section>
-  <section class="seventh-sheet">
+  <section class="seventh-sheet" id="contact">
     <h2 class="seventh-sheet__contact-me">Contact me</h2>
     <p class="seventh-sheet__paragraph">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
     <form action="https://formspree.io/f/" class="form" method="post">
-      <img class="form__image" src="./images/contact-form-background.svg" alt="background-form">
       <div class="form__data">
         <input class="form__field-area form__field-text" name="name" type="text" id="name" maxlength="30" placeholder="Your name" required>
         <input class="form__field-area form__field-text" name="email" type="email" id="e-mail" placeholder="user_name@mail.com" required>
@@ -187,5 +198,6 @@
     </form>
       <div class="end-line"><img src="./images/end-line.png" alt="end-line"></div>
   </section>
+  <script src="main.js"></script>
 </body>
 </html>
