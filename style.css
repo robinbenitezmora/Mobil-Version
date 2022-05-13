@@ -882,17 +882,17 @@ span {
   }
 
   .menu {
-  display: flex;
-  flex-direction: row;
-  height: 2.5rem;
-  justify-content: space-between;
-  align-items: center;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 1.25rem;
-  transform: scale(1);
+    display: flex;
+    flex-direction: row;
+    height: 2.5rem;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.25rem;
+    transform: scale(1);
   }
 }
 
