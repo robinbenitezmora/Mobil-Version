@@ -1,6 +1,5 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 # Mobil Version
-
 >
 This project shows how to make a complete portfolio version applying styles and our knowledge acquired so far with Microverse.
 
