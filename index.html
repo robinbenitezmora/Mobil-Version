@@ -63,8 +63,7 @@
             <div class="footer__languages-css footer__languages-text">css</div>
             <div class="footer__languages-javascript footer__languages-text">javaScript</div>
           </div>
-          <button onclick="closePopup(1)" class="footer__button footer__button-text" type="button">See Project</button>
-          <!--<a class="footer__button footer__button-text" href="#">See Project</a>-->
+          <button id="openPopup" class="footer__button footer__button-text" type="button">See Project</button>
         </div>
       </article>
     </section>
@@ -204,7 +203,7 @@
       <article>
         <div class="desktop-heading">
           <h2 class="desktop__area-title" id="desktop-project">Tonic</h2>
-          <span class="close" id="close">&times;</span>
+          <span class="close" id="closePopup">&times;</span>
           <button onclick="closeModal(1)" class="close-button" type="button">
         </div>
         <div class="desktop__area-frame">
@@ -241,12 +240,12 @@
       </article>
     </section>
   </section>
-  <section class="popup" id="popup">
+  <section class="popup" id="popup-modal">
     <section class="popup__area">
       <article>
         <div class="popup-heading">
           <h2 class="popup__area-title">Tonic</h2>
-          <span class="close" id="close">&times;</span>
+          <span class="close" id="closePopup">&times;</span>
         </div>
         <div class="popup__area-frame">
           <h4 class="popup__area-frame-canopy">CANOPY</h4>

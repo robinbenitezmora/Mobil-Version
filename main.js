@@ -61,6 +61,32 @@ const superheroes = [
 
 const desktop = document.querySelector('#desktop-modal');
 
+const openDesktop= document.getElementById('openPopup');
+const modal = document.getElementById('desktop-modal');
+const closeDesktop = document.getElementById('closePopup');
+
+openDesktop.addEventListener('click', () => {
+  modal.classList.add('active');
+});
+
+closeDesktop.addEventListener('click', () => {
+  modal.classList.remove('active');
+});
+
+const mobPopup = document.querySelector('#popup-modal');
+
+const openMobPopup= document.getElementById('openPopup');
+const modalMobPopup = document.getElementById('popup-modal');
+const closeMobPopup = document.getElementById('closePopup');
+
+openMobPopup.addEventListener('click', () => {
+  modalMobPopup.classList.add('active');
+});
+
+closeMobPopup.addEventListener('click', () => {
+  modal.classList.remove('active');
+});
+
 function openPopup(num = null) {
   if (num != null) {
     const { technologies } = superheroes[num];

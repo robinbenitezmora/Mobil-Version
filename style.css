@@ -895,15 +895,19 @@ span {
   display: flex;
   flex-direction: column;
   background-color: #e5e5e5;
-  padding: 114px 24px 44px 24px;
   pointer-events: auto;
   width: 1156px;
   height: 1163px;
+  position: absolute;
+  top: 70rem;
+  left: -160rem;
 }
 
-#desktop.active {
-  opacity: 1;
+.desktop.active {
   pointer-events: auto;
+  position: absolute;
+  top: 70rem;
+  left: 0.1px;
 }
 
 #open-topic.active {
@@ -923,14 +927,10 @@ span {
   padding-right: 1.5rem;
 }
 
-.active {
-  pointer-events: auto;
-  opacity: 1;
-}
-
 .close {
-  font-size: 1.5rem;
+  font-size: 5rem;
   pointer-events: auto;
+  cursor: pointer;
 }
 
 .desktop__area-big-image {
@@ -1121,19 +1121,17 @@ span {
   text-decoration: none;
 }
 
-#popup {
+.popup {
   background-color: #e5e5e5;
-  padding: 114px 24px 44px 24px;
   pointer-events: auto;
+  position: absolute;
+  top: 70rem;
+  right: -260rem;
 }
 
-#popup.active {
-  opacity: 1;
-  pointer-events: auto;
-}
-
-#open-topic.active {
-  opacity: 1;
+.popup.active {
+  top: 70rem;
+  left: 0.1px;
   pointer-events: auto;
 }
 
@@ -1322,7 +1320,7 @@ span {
   text-decoration: none;
 }
 
-@media (min-width: 376px) {
+@media (min-width: 769px) {
   .menu__icon {
     transform: scale(0);
   }
@@ -1340,9 +1338,7 @@ span {
     line-height: 1.25rem;
     transform: scale(1);
   }
-}
 
-@media (min-width: 769px) {
   .first-sheet {
     margin: 15rem 16.25rem 28rem 16.25rem;
   }
@@ -1377,6 +1373,7 @@ span {
   }
   
   .desktop,
+  .desktop.active,
   .second-sheet__area,
   .third-sheet__area,
   .fourth-sheet__area,
