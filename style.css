@@ -941,7 +941,8 @@ span {
 .desktop-title {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  width: 50rem;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -949,6 +950,7 @@ span {
   font-size: 3rem;
   pointer-events: auto;
   cursor: pointer;
+  text-decoration: none;
 }
 
 @keyframes robin {
@@ -1070,7 +1072,7 @@ span {
   border: 1px solid #6070ff;
   box-sizing: border-box;
   border-radius: 8px;
-  width: 9.5rem;
+  width: 8rem;
   height: 3rem;
 }
 
@@ -1090,15 +1092,14 @@ span {
 .desktop__button2 {
   display: grid;
   grid-area: 1 / 2 / 2 / 3;
-  justify-content: space-between;
+  justify-content: start;
   align-items: center;
   border: 1px solid #6070ff;
   box-sizing: border-box;
   border-radius: 8px;
-  width: 9.5rem;
+  width: 8rem;
   height: 3rem;
-  position: relative;
-  margin-left: 1rem;
+  margin-left: 1px;
 }
 
 .desktop__button2:hover {
