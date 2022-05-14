@@ -902,8 +902,6 @@ span {
   pointer-events: auto;
   border-radius: 1rem;
   position: absolute;
-  background-color: #e5e5e5;
-  position: absolute;
   top: 50rem;
   left: 100rem;
 }
@@ -948,16 +946,11 @@ span {
 }
 
 .close {
-  font-size: 8rem;
+  font-size: 5rem;
   font-weight: bold;
   pointer-events: auto;
   cursor: pointer;
 }
-
-.desktop__area-big-image {
-    min-width: 100%;
-    min-height: 80%;
-  }
 
 @keyframes robin {
   100% {
@@ -1026,13 +1019,13 @@ span {
   padding-top: 1.5rem;
 }
 
-.footer__languages-desktop-row1{
+.footer__languages-desktop-row1 {
   display: flex;
   flex-direction: row;
   margin-bottom: 1rem;
 }
 
-.footer__languages-desktop-row2{
+.footer__languages-desktop-row2 {
   display: flex;
   flex-direction: row;
   margin-bottom: 3rem;
@@ -1170,12 +1163,6 @@ span {
   align-items: center;
   margin-top: 2rem;
   padding-right: 1.5rem;
-}
-
-.close {
-  font-size: 4rem;
-  pointer-events: auto;
-  font-weight: bold;
 }
 
 .popup__area-big-image {

@@ -14,7 +14,7 @@ const superheroes = [
     description: 'Spiderman: Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum molestias, quod recusandae asperiores similique quos aperiam aspernatur, ipsam autem fuga minima libero dolor accusantium corporis possimus quaerat repellat harum distinctio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum molestias, quod recusandae asperiores similique quos aperiam aspernatur, ipsam autem fuga minima libero dolor accusantium corporis possimus quaerat repellat harum distinctio!',
     image: ['./images/big-image.png'],
     technologies: ['HTML/CSS', 'JavaScript', 'Bootstrap', 'Ruby on Rails'],
-    linkToLiveVersion: "#",
+    linkToLiveVersion: '#',
     linkToSource: 'https://github.com/robinbenitezmora/Mobil-Version',
   },
   {
@@ -22,7 +22,7 @@ const superheroes = [
     description: 'Spiderman:  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum molestias, quod recusandae asperiores similique quos aperiam aspernatur, ipsam autem fuga minima libero dolor accusantium corporis possimus quaerat repellat harum distinctio!',
     image: ['./images/big-image.png'],
     technologies: ['HTML/CSS', 'JavaScript', 'Bootstrap', 'Ruby on Rails'],
-    linkToLiveVersion: "#",
+    linkToLiveVersion: '#',
     linkToSource: 'https://github.com/robinbenitezmora/Mobil-Version',
   },
   {
@@ -30,7 +30,7 @@ const superheroes = [
     description: 'Spiderman:  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum molestias, quod recusandae asperiores similique quos aperiam aspernatur, ipsam autem fuga minima libero dolor accusantium corporis possimus quaerat repellat harum distinctio!',
     image: ['./images/big-image.png'],
     technologies: ['HTML/CSS', 'JavaScript', 'Bootstrap', 'Ruby on Rails'],
-    linkToLiveVersion: "#",
+    linkToLiveVersion: '#',
     linkToSource: 'https://github.com/robinbenitezmora/Mobil-Version',
   },
   {
@@ -38,7 +38,7 @@ const superheroes = [
     description: 'Spiderman: Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum molestias, quod recusandae asperiores similique quos aperiam aspernatur, ipsam autem fuga minima libero dolor accusantium corporis possimus quaerat repellat harum distinctio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum molestias, quod recusandae asperiores similique quos aperiam aspernatur, ipsam autem fuga minima libero dolor accusantium corporis possimus quaerat repellat harum distinctio!',
     image: ['./images/big-image.png'],
     technologies: ['HTML/CSS', 'JavaScript', 'Bootstrap', 'Ruby on Rails'],
-    linkToLiveVersion: "#",
+    linkToLiveVersion: '#',
     linkToSource: 'https://github.com/robinbenitezmora/Mobil-Version',
   },
   {
@@ -46,7 +46,7 @@ const superheroes = [
     description: 'Spiderman:  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum molestias, quod recusandae asperiores similique quos aperiam aspernatur, ipsam autem fuga minima libero dolor accusantium corporis possimus quaerat repellat harum distinctio!',
     image: ['./images/big-image.png'],
     technologies: ['HTML/CSS', 'JavaScript', 'Bootstrap', 'Ruby on Rails'],
-    linkToLiveVersion: "#",
+    linkToLiveVersion: '#',
     linkToSource: 'https://github.com/robinbenitezmora/Mobil-Version',
   },
   {
@@ -54,14 +54,14 @@ const superheroes = [
     description: 'Spiderman:  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum molestias, quod recusandae asperiores similique quos aperiam aspernatur, ipsam autem fuga minima libero dolor accusantium corporis possimus quaerat repellat harum distinctio!',
     image: ['./images/big-image.png'],
     technologies: ['HTML/CSS', 'JavaScript', 'Bootstrap', 'Ruby on Rails'],
-    linkToLiveVersion: "#",
+    linkToLiveVersion: '#',
     linkToSource: 'https://github.com/robinbenitezmora/Mobil-Version',
   },
 ];
 
 const desktop = document.querySelector('#desktop-modal');
 
-const openDesktop= document.getElementById('openPopup');
+const openDesktop = document.getElementById('openPopup');
 const modal = document.getElementById('desktop-modal');
 const closeDesktop = document.getElementById('closePopup');
 
@@ -75,13 +75,13 @@ closeDesktop.addEventListener('click', () => {
 function openPopup(num = null) {
   if (num != null) {
     const { technologies } = superheroes[num];
-    let technologiesList = "";
+    let technologiesList = '';
     technologies.forEach((tech) => {
       technologiesList += `<li>${tech}</li>`;
     });
 
     const { images } = superheroes[num];
-    let imagesList = "";
+    let imagesList = '';
     images.forEach((img) => {
       imagesList += `<img src="${img}"><img>`;
     });
