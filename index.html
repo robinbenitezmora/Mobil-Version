@@ -63,7 +63,8 @@
             <div class="footer__languages-css footer__languages-text">css</div>
             <div class="footer__languages-javascript footer__languages-text">javaScript</div>
           </div>
-          <a class="footer__button footer__button-text" href="#">See Project</a>
+          <button onclick="closePopup(1)" class="footer__button footer__button-text" type="button">See Project</button>
+          <!--<a class="footer__button footer__button-text" href="#">See Project</a>-->
         </div>
       </article>
     </section>
@@ -198,12 +199,13 @@
     </form>
       <div class="end-line"><img src="./images/end-line.png" alt="end-line"></div>
   </section>
-  <section class="desktop" id="desktop">
+  <section class="desktop" id="desktop-modal">
     <section class="desktop__area">
       <article>
         <div class="desktop-heading">
-          <h2 class="desktop__area-title">Tonic</h2>
+          <h2 class="desktop__area-title" id="desktop-project">Tonic</h2>
           <span class="close" id="close">&times;</span>
+          <button onclick="closeModal(1)" class="close-button" type="button">
         </div>
         <div class="desktop__area-frame">
           <h4 class="desktop__area-frame-canopy">CANOPY</h4>
@@ -212,21 +214,26 @@
           <img class="desktop__area-frame-dot" src="./images/dot.png" alt="dot">
           <h5 class="desktop__area-frame-BackEndDev">2015</h5>
         </div>
-        <img class="desktop__area-big-image" src="./images/tonic.svg" alt="tonic">
-        <div class>
+        <img class="desktop__area-big-image" id="desktop-image" src="./images/tonic.svg" alt="tonic">
+        <div class="desktop-footer">
           <p class="desktop__paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</p>
-          <div class="footer">
-            <div class="footer__languages">
+          <div class="desktop-footer-buttons" id="desktop-technology">
+            <div class="footer__languages-desktop-row1">
               <div class="footer__languages-html footer__languages-text">html</div>
               <div class="footer__languages-css footer__languages-text">css</div>
               <div class="footer__languages-javascript footer__languages-text">javaScript</div>
             </div>
+            <div class="footer__languages-desktop-row2">
+              <div class="footer__languages-html footer__languages-text">github</div>
+              <div class="footer__languages-css footer__languages-text">ruby</div>
+              <div class="footer__languages-javascript footer__languages-text">Bootstrap</div>
+            </div>
             <div class="desktop__buttons">
               <div class="desktop__first-button">
-                <a class="desktop__button1 popup__button-text" href="#" id="open-tonic">See Project<span><img src="./images/iconexport.svg" alt="icon-export"></span></a>
+                <a class="desktop__button1 popup__button-text" href="" id="desktop-open-live">See Live<span><img src="./icons/Icon-export.svg" alt="icon-export"></span></a>
               </div>
               <div class="desktop__first-button">
-                <a class="desktop__button2 desktop__button-text" href="#">See Source<span><img src="./images/github.svg" alt="github"></span></a>
+                <a class="desktop__button2 desktop__button-text" id="desktop-source" href="">See Source<span><img src="./icons/icon-github.svg" alt="github"></span></a>
               </div>
             </div>
           </div>
@@ -248,7 +255,7 @@
           <img class="popup__area-frame-dot" src="./images/dot.png" alt="dot">
           <h5 class="popup__area-frame-BackEndDev">2015</h5>
         </div>
-        <img class="popup__area-big-image" src="./images/second-image.svg" alt="tonic">
+        <img class="popup__area-big-image" src="./images/photo-portfolio.svg" alt="tonic">
         <p class="popup__paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent</p>
         <div class="footer">
           <div class="footer__languages">
@@ -258,10 +265,10 @@
           </div>
           <div class="popup__buttons">
             <div class="popup__first-button">
-              <a class="popup__button1 popup__button-text" href="#" id="open-tonic">See Project<span><img src="./images/iconexport.svg" alt="icon-export"></span></a>
+              <a class="popup__button1 popup__button-text" href="#" id="open-tonic">See Project<span><img src="./icons/Icon-export.svg" alt="icon-export"></span></a>
             </div>
             <div class="popup__first-button">
-              <a class="popup__button2 popup__button-text" href="#">See Source<span><img src="./images/github.svg" alt="github"></span></a>
+              <a class="popup__button2 popup__button-text" href="#">See Source<span><img src="./icons/icon-github.svg" alt="github"></span></a>
             </div>
           </div>
         </div>

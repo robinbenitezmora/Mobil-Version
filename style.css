@@ -48,6 +48,21 @@ header {
   text-decoration: none;
 }
 
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-scroll {
+  overflow-y: hidden;
+  background-color: #f7f7f9;
+}
+
+.full-screen {
+  height: 100vh;
+}
+
 .menu {
   display: flex;
   flex-direction: row;
@@ -975,6 +990,37 @@ span {
   color: #7a869a;
 }
 
+.desktop-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 70rem;
+  height: 24rem;
+}
+
+.desktop-footer-buttons {
+  display: flex;
+  flex-direction: column;
+  width: 19rem;
+  height: 10rem;
+  justify-content: space-between;
+  align-items: flex-start;
+
+}
+
+.footer__languages-desktop-row1{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+}
+
+.footer__languages-desktop-row2{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 3rem;
+}
+
 .desktop__paragraph {
   width: 48.5rem;
   height: 24rem;
@@ -985,6 +1031,7 @@ span {
   line-height: 24px;
   color: #344563;
   margin: 0.1px 16px;
+  padding: 1rem;
 }
 
 .desktop__buttons {
@@ -1066,7 +1113,7 @@ span {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.03em;
@@ -1328,7 +1375,8 @@ span {
     justify-content: space-evenly;
     align-items: flex-start;
   }
-
+  
+  .desktop,
   .second-sheet__area,
   .third-sheet__area,
   .fourth-sheet__area,
