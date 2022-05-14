@@ -891,37 +891,73 @@ span {
   margin-bottom: 8px;
 }
 
-#open-topic.active {
-  opacity: 1;
+.desktop {
+  min-width: 50%;
+  min-height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e5e5;
   pointer-events: auto;
+  border-radius: 1rem;
+  position: absolute;
+  background-color: #e5e5e5;
+  position: absolute;
+  top: 50rem;
+  left: 100rem;
 }
 
+.desktop.active {
+  pointer-events: auto;
+  position: absolute;
+  top: 78rem;
+  left: 7rem;
+}
+
+.desktop__area {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border: 1px solid #dfe1e6;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+.desktop__area-big-image {
+  display: flex;
+  align-items: center;
+  margin: 16px;
+}
 
 .desktop-heading {
   display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: auto;
+  flex-direction: column;
   justify-content: space-between;
-  align-items: center;
-  margin-top: 2rem;
+  align-items: flex-start;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   padding-right: 1.5rem;
 }
 
+.desktop-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .close {
-  font-size: 5rem;
+  font-size: 8rem;
+  font-weight: bold;
   pointer-events: auto;
   cursor: pointer;
 }
 
 .desktop__area-big-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 69rem;
-  height: 37rem;
-  padding: 5rem -5rem;
-}
+    min-width: 100%;
+    min-height: 80%;
+  }
 
 @keyframes robin {
   100% {
@@ -937,7 +973,7 @@ span {
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
-  margin: 0.1px 16px;
+  margin: 0.1px 5rem 0,1px 1rem;
 }
 
 .desktop__area-frame {
@@ -976,18 +1012,18 @@ span {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  width: 70rem;
+  width: 68rem;
   height: 24rem;
 }
 
 .desktop-footer-buttons {
   display: flex;
   flex-direction: column;
-  width: 19rem;
+  width: 18rem;
   height: 10rem;
   justify-content: space-between;
   align-items: flex-start;
-
+  padding-top: 1.5rem;
 }
 
 .footer__languages-desktop-row1{
@@ -1003,8 +1039,6 @@ span {
 }
 
 .desktop__paragraph {
-  width: 48.5rem;
-  height: 24rem;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -1013,6 +1047,8 @@ span {
   color: #344563;
   margin: 0.1px 16px;
   padding: 1rem;
+  width: 66rem;
+  height: auto;
 }
 
 .desktop__buttons {
@@ -1302,25 +1338,6 @@ span {
     transform: scale(0);
   }
 
-  .desktop {
-    display: flex;
-    flex-direction: column;
-    background-color: #e5e5e5;
-    pointer-events: auto;
-    width: 1156px;
-    height: 1163px;
-    position: absolute;
-    top: 70rem;
-    left: -160rem;
-  }
-  
-  .desktop.active {
-    pointer-events: auto;
-    position: absolute;
-    top: 70rem;
-    left: 0.1px;
-  }
-
   .menu {
     display: flex;
     flex-direction: row;
@@ -1368,8 +1385,6 @@ span {
     align-items: flex-start;
   }
   
-  .desktop,
-  .desktop.active,
   .second-sheet__area,
   .third-sheet__area,
   .fourth-sheet__area,

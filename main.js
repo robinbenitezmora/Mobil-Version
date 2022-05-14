@@ -59,17 +59,17 @@ const superheroes = [
   },
 ];
 
-const mobil = document.querySelector('#popup-modal');
+const desktop = document.querySelector('#desktop-modal');
 
-const openMobil= document.getElementById('openPopup');
-const modal = document.getElementById('popup-modal');
-const closeMobil = document.getElementById('closePopMobil');
+const openDesktop= document.getElementById('openPopup');
+const modal = document.getElementById('desktop-modal');
+const closeDesktop = document.getElementById('closePopup');
 
-openMobil.addEventListener('click', () => {
+openDesktop.addEventListener('click', () => {
   modal.classList.add('active');
 });
 
-closeMobil.addEventListener('click', () => {
+closeDesktop.addEventListener('click', () => {
   modal.classList.remove('active');
 });
 function openPopup(num = null) {
@@ -86,22 +86,22 @@ function openPopup(num = null) {
       imagesList += `<img src="${img}"><img>`;
     });
 
-    document.getElementById('mobil-project').innerHTML = superheroes[num].name;
-    document.getElementById('popup-image').src = superheroes[num].image;
-    document.getElementById('popup-open-live').innerHTML = superheroes[num].linkToLiveVersion;
-    document.getElementById('popup-source').innerHTML = superheroes[num].linkToSource;
-    document.getElementById('popup-technology').innerHTML = technologiesList;
+    document.getElementById('desktop-project').innerHTML = superheroes[num].name;
+    document.getElementById('desktop-image').src = superheroes[num].image;
+    document.getElementById('desktop-open-live').innerHTML = superheroes[num].linkToLiveVersion;
+    document.getElementById('desktop-source').innerHTML = superheroes[num].linkToSource;
+    document.getElementById('desktop-technology').innerHTML = technologiesList;
     document.getElementById('').innerHTML = imagesList;
 
-    mobil.classList.add('active');
+    desktop.classList.add('active');
   }
 }
 
-function closePopup(id = null) {
+function closepopup(id = null) {
   if (id != null) {
-    mobil.classList.remove('active');
+    desktop.classList.remove('active');
   }
 }
 
 openPopup();
-closePopup();
+closepopup();
