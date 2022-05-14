@@ -59,34 +59,19 @@ const superheroes = [
   },
 ];
 
-const desktop = document.querySelector('#desktop-modal');
+const mobil = document.querySelector('#popup-modal');
 
-const openDesktop= document.getElementById('openPopup');
-const modal = document.getElementById('desktop-modal');
-const closeDesktop = document.getElementById('closePopup');
+const openMobil= document.getElementById('openPopup');
+const modal = document.getElementById('popup-modal');
+const closeMobil = document.getElementById('closePopMobil');
 
-openDesktop.addEventListener('click', () => {
+openMobil.addEventListener('click', () => {
   modal.classList.add('active');
 });
 
-closeDesktop.addEventListener('click', () => {
+closeMobil.addEventListener('click', () => {
   modal.classList.remove('active');
 });
-
-const mobPopup = document.querySelector('#popup-modal');
-
-const openMobPopup= document.getElementById('openPopup');
-const modalMobPopup = document.getElementById('popup-modal');
-const closeMobPopup = document.getElementById('closePopup');
-
-openMobPopup.addEventListener('click', () => {
-  modalMobPopup.classList.add('active');
-});
-
-closeMobPopup.addEventListener('click', () => {
-  modal.classList.remove('active');
-});
-
 function openPopup(num = null) {
   if (num != null) {
     const { technologies } = superheroes[num];
@@ -101,22 +86,22 @@ function openPopup(num = null) {
       imagesList += `<img src="${img}"><img>`;
     });
 
-    document.getElementById('desktop-project').innerHTML = superheroes[num].name;
-    document.getElementById('desktop-image').src = superheroes[num].image;
-    document.getElementById('desktop-open-live').innerHTML = superheroes[num].linkToLiveVersion;
-    document.getElementById('desktop-source').innerHTML = superheroes[num].linkToSource;
-    document.getElementById('desktop-technology').innerHTML = technologiesList;
+    document.getElementById('mobil-project').innerHTML = superheroes[num].name;
+    document.getElementById('popup-image').src = superheroes[num].image;
+    document.getElementById('popup-open-live').innerHTML = superheroes[num].linkToLiveVersion;
+    document.getElementById('popup-source').innerHTML = superheroes[num].linkToSource;
+    document.getElementById('popup-technology').innerHTML = technologiesList;
     document.getElementById('').innerHTML = imagesList;
 
-    desktop.classList.add('active');
+    mobil.classList.add('active');
   }
 }
 
-function closepopup(id = null) {
+function closePopup(id = null) {
   if (id != null) {
-    desktop.classList.remove('active');
+    mobil.classList.remove('active');
   }
 }
 
 openPopup();
-closepopup();
+closePopup();

@@ -891,25 +891,6 @@ span {
   margin-bottom: 8px;
 }
 
-.desktop {
-  display: flex;
-  flex-direction: column;
-  background-color: #e5e5e5;
-  pointer-events: auto;
-  width: 1156px;
-  height: 1163px;
-  position: absolute;
-  top: 70rem;
-  left: -160rem;
-}
-
-.desktop.active {
-  pointer-events: auto;
-  position: absolute;
-  top: 70rem;
-  left: 0.1px;
-}
-
 #open-topic.active {
   opacity: 1;
   pointer-events: auto;
@@ -1125,12 +1106,12 @@ span {
   background-color: #e5e5e5;
   pointer-events: auto;
   position: absolute;
-  top: 70rem;
-  right: -260rem;
+  top: 36rem;
+  left: 100rem;
 }
 
 .popup.active {
-  top: 70rem;
+  top: 36rem;
   left: 0.1px;
   pointer-events: auto;
 }
@@ -1155,14 +1136,10 @@ span {
   padding-right: 1.5rem;
 }
 
-.active {
-  pointer-events: auto;
-  opacity: 1;
-}
-
 .close {
-  font-size: 1.5rem;
+  font-size: 4rem;
   pointer-events: auto;
+  font-weight: bold;
 }
 
 .popup__area-big-image {
@@ -1323,6 +1300,25 @@ span {
 @media (min-width: 769px) {
   .menu__icon {
     transform: scale(0);
+  }
+
+  .desktop {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e5e5;
+    pointer-events: auto;
+    width: 1156px;
+    height: 1163px;
+    position: absolute;
+    top: 70rem;
+    left: -160rem;
+  }
+  
+  .desktop.active {
+    pointer-events: auto;
+    position: absolute;
+    top: 70rem;
+    left: 0.1px;
   }
 
   .menu {
