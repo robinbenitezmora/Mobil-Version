@@ -4,6 +4,6 @@ open.addEventListener('click', () => {
 });
 
 const close = document.querySelector('.cls');
-close.addEventListener('click', () => {  
+open.addEventListener('click', () => {
   document.getElementById('slide_menu').classList.remove('active');
 });
