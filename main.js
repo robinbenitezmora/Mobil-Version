@@ -15,18 +15,18 @@ const nav = document.querySelector('.nav__menu');
 const body = document.querySelector('body');
 const desktop = document.getElementById('desktop-modal');
 const header = document.querySelector('header');
-
-// Menu project
-
-open.addEventListener('click', () => {
-  document.getElementById('slide_menu').classList.add('active');
-});
-
-close.addEventListener('click', () => {
-  document.getElementById('slide_menu').classList.remove('active');
-});
+const openModal = document.getElementById('openDesktop');
+const closeModal = document.getElementById('closeDesktop');
 
 // Popup Window Project
+
+openModal.addEventListener('click', () => {
+  desktop.classList.add('active');
+});
+
+closeModal.addEventListener('click', () => {
+  desktop.classList.remove('active');
+})
 
 const superheroes = [
   {
@@ -78,6 +78,8 @@ const superheroes = [
     linkToSource: 'https://github.com/robinbenitezmora/Mobil-Version',
   },
 ];
+
+
 function openProjects (num = null) {
   if (num != null) {
     const { technologies } = superheroes[num];
