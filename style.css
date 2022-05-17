@@ -40,10 +40,10 @@ header {
   position: initial;
   top: 4.5rem;
   right: 2.5rem;
-  margin-right: 3rem;
+  margin-right: 1rem;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-size: 24px;
+  font-size: 48px;
   line-height: 1.25rem;
   color: #e5e5e5;
   text-decoration: none;
@@ -90,6 +90,7 @@ header {
   text-decoration: none;
   color: #fff;
   list-style: none;
+  padding-bottom: 1.7rem;
 }
 
 .menu__icon.active {
