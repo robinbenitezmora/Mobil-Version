@@ -7,4 +7,3 @@ const close = document.querySelector('.cls');
 close.addEventListener('click', () => {
   document.getElementById('slide_menu').classList.remove('active');
 });
-
