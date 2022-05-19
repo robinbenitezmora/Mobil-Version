@@ -879,25 +879,23 @@ span {
 }
 
 .desktop {
-  min-width: 50%;
-  min-height: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #e5e5e5;
+  background-color: rgba(157, 157, 157, 0.5);
   pointer-events: auto;
-  border-radius: 1rem;
-  position: absolute;
-  top: 50rem;
+  position: fixed;
+  height: 100%;
+  top: 0;
   left: 100rem;
+  width: 100%;
+  z-index: 100;
 }
 
 .desktop.active {
   pointer-events: auto;
-  position: absolute;
-  top: 78rem;
-  left: 7rem;
+  left: 0;
 }
 
 .desktop__area {
@@ -907,12 +905,15 @@ span {
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
+  height: 90%;
+  max-width: 68rem;
+  width: 100%;
 }
 
 .desktop__area-big-image {
-  display: flex;
-  align-items: center;
-  margin: 16px;
+  height: 250px;
+  width: auto;
+  margin: 0 auto;
 }
 
 .desktop-heading {
@@ -920,15 +921,14 @@ span {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  padding-right: 1.5rem;
+  padding: 0 1.5rem;
+  width: 75vw;
 }
 
 .desktop-title {
   display: flex;
   flex-direction: row;
-  width: 64rem;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
 }
@@ -954,13 +954,13 @@ span {
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
-  margin: 0.1px 5rem 0.1px 1rem;
+  margin: 0 4px 0 8px;
 }
 
 .desktop__area-frame {
   display: flex;
   align-items: center;
-  margin: 12px 0.1px;
+  margin: 4px 0;
 }
 
 .desktop__area-frame-canopy {
@@ -991,8 +991,6 @@ span {
 .desktop-footer {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
   width: 68rem;
   height: 24rem;
 }
@@ -1004,7 +1002,8 @@ span {
   height: 10rem;
   justify-content: space-between;
   align-items: flex-start;
-  padding-top: 1.5rem;
+  margin-left: -1rem;
+  margin-top: 2rem;
 }
 
 .footer__languages-desktop-row1 {
@@ -1026,10 +1025,9 @@ span {
   font-size: 15px;
   line-height: 24px;
   color: #344563;
-  margin-left: 16px;
-  padding: 1rem;
-  width: 64rem;
-  height: auto;
+  width: 58rem;
+  height: 100%;
+  margin-top: 2rem;
 }
 
 .desktop__buttons {
@@ -1152,6 +1150,7 @@ span {
     width: 50%;
   }
 
+  .desktop__area-big-image,
   .second-sheet__area-big-image,
   .fourth-sheet__area-big-image {
     width: 50%;
@@ -1165,6 +1164,16 @@ span {
 
   .sixth-sheet-developer {
     flex-direction: row;
+  }
+
+  .desktop__paragraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.1px 30px;
+    width: 47rem;
+    height: 150px;
   }
 
   .seventh-sheet__paragraph {
