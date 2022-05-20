@@ -27,10 +27,7 @@ closeModal.addEventListener('click', () => {
 
 // Code following the video for second-sheet and third-sheet in index.html
 
-const second_sheet = document.querySelector('.second-sheet');
-const section2 = document.createElement('section2');
-second_sheet.appendChild(section2);
-section.innerHTML = `<section class="second-sheet" id="portfolio">
+const sheet2 = `<section class="second-sheet" id="portfolio">
 <section class="second-sheet__area">
   <img class="second-sheet__area-big-image" src="./images/tonic.svg" alt="tonic">
   <article>
@@ -49,56 +46,19 @@ section.innerHTML = `<section class="second-sheet" id="portfolio">
         <div class="footer__languages-css footer__languages-text">css</div>
         <div class="footer__languages-javascript footer__languages-text">javaScript</div>
       </div>
-      <a class="footer__button footer__button-text" id="openDesktop" href="#" class="Project2">See Project</a>
+      <a class="footer__button footer__button-text" id="openDesktop" href="#">See Project</a>
     </div>
   </article>
 </section>
 </section>
 `;
 
-const openProject2 = document.querySelector('.Project2');
-openProject1.addEventListener('click', () => {
-  const main2 = document.createElement('div');
-  const popup2 = document.createElement('div');
-  popup2.innerHTML = `
-  <section class="second-sheet" id="portfolio">
-<section class="second-sheet__area">
-  <img class="second-sheet__area-big-image" src="./images/tonic.svg" alt="tonic">
-  <article>
-    <h2 class="second-sheet__area-title">Tonic</h2>
-    <div class="second-sheet__area-frame">
-      <h4 class="second-sheet__area-frame-canopy">CANOPY</h4>
-      <img class="second-sheet__area-frame-dot" src="./images/dot.png" alt="dot">
-      <h4 class="second-sheet__area-frame-BackEndDev">Back End Dev</h4>
-      <img class="second-sheet__area-frame-dot" src="./images/dot.png" alt="dot">
-      <h5 class="second-sheet__area-frame-BackEndDev">2015</h5>
-    </div>
-    <p class="second-sheet__paragraph">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-    <div class="footer">
-      <div class="footer__languages">
-        <div class="footer__languages-html footer__languages-text">html</div>
-        <div class="footer__languages-css footer__languages-text">css</div>
-        <div class="footer__languages-javascript footer__languages-text">javaScript</div>
-      </div>
-      <a class="footer__button footer__button-text" id="openDesktop" href="#" class="closeProject">See Project</a>
-    </div>
-  </article>
-</section>
-</section>
-`;
-main2.appendChild(popup2);
-second_sheet.appendChild(main2);
+const secondSheet = document.querySelector('#projects');
+const section2 = document.createElement('div');
+section2.innerHTML = sheet2;
+secondSheet.appendChild(section2);
 
-const general_close = document.querySelector('.closeProject');
-general_close.addEventListener('click', () => {
-  second_sheet.removeChild(main2);
-})
-});
-
-const third_sheet = document.querySelector('.third-sheet');
-const section3 = document.createElement('section3');
-second_sheet.appendChild(section3);
-section3.innerHTML = `  <section class="third-sheet">
+const sheet3 = `    <section class="third-sheet">
 <section class="third-sheet__area">
   <article>
     <h2 class="third-sheet__area-title">Multi-Post Stories</h2>
@@ -117,7 +77,7 @@ section3.innerHTML = `  <section class="third-sheet">
         <div class="footer__languages-css footer__languages-text">css</div>
         <div class="footer__languages-javascript footer__languages-text">javaScript</div>
       </div>
-      <a class="footer__button footer__button-text" href="" class="Project3">See Project</a>
+      <a class="footer__button footer__button-text" href="javascript:openProjects(1)">See Project</a>
     </div>
   </article>
   <img class="third-sheet__area-big-image" src="./images/big-image4.png" alt="personal-image">
@@ -125,113 +85,7 @@ section3.innerHTML = `  <section class="third-sheet">
 </section>
 `;
 
-const openProject3 = document.querySelector('.Project3');
-openProject1.addEventListener('click', () => {
-  const main3 = document.createElement('div');
-  const popup3 = document.createElement('div');
-  popup3.innerHTML = `
-  <section class="third-sheet">
-    <section class="third-sheet__area">
-      <article>
-        <h2 class="third-sheet__area-title">Multi-Post Stories</h2>
-        <div class="third-sheet__area-frame">
-          <h4 class="third-sheet__area-frame-canopy">FACEBOOK</h4>
-          <img class="third-sheet__area-frame-dot" src="./images/dot.png" alt="dot">
-          <h4 class="third-sheet__area-frame-BackEndDev">Full Stack Dev</h4>
-          <img class="third-sheet__area-frame-dot" src="./images/dot.png" alt="dot">
-          <h5 class="third-sheet__area-frame-BackEndDev">2015</h5>
-        </div>
-        <p class="third-sheet__paragraph">Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</p>
-        <div class="footer">
-          <div class="footer__languages">
-            <div class="footer__languages-html footer__languages-text">html</div>
-            <div class="footer__languages-css footer__languages-text">Ruby on rails</div>
-            <div class="footer__languages-css footer__languages-text">css</div>
-            <div class="footer__languages-javascript footer__languages-text">javaScript</div>
-          </div>
-          <a class="footer__button footer__button-text" href="#" class="closeProject">See Project</a>
-        </div>
-      </article>
-      <img class="third-sheet__area-big-image" src="./images/big-image4.png" alt="personal-image">
-    </section>
-  </section>
-`;
-main3.appendChild(popup3);
-third_sheet.appendChild(main3);
-
-const general_close = document.querySelector('.closeProject');
-general_close.addEventListener('click', () => {
-  third_sheet.removeChild(main3);
-})
-});
-
-
-
-
-
-
-
-
-
-/*
-const projects = [
-  {
-    name: 'Tonic',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    image: ['./images/tonic.svg'],
-    technologies: ['html', 'css', 'JavaScript'],
-    linkToLiveVersion: 'https://www.nasa.gov/',
-    linkToSource: 'https://github.com/robinbenitezmora/Mobil-Version',
-  },
-  {
-    name: 'Multi-Post Stories',
-    description: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
-    image: ['./images/big-image4.png'],
-    technologies: ['html', 'Ruby on rails', 'css', 'JavaScript'],
-    linkToLiveVersion: 'https://www.nasa.gov/',
-    linkToSource: 'https://github.com/robinbenitezmora/Mobil-Version',
-  },
-  {
-    name: 'Facebook 360',
-    description: 'Exploring the future of media in Facebook first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
-    image: ['./images/photo-portfolio.svg'],
-    technologies: ['html', 'Ruby on Rails', 'css', 'JavaScript'],
-    linkToLiveVersion: 'https://www.nasa.gov/',
-    linkToSource: 'https://github.com/robinbenitezmora/Mobil-Version',
-  },
-  {
-    name: 'Uber Navigation',
-    description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
-    image: ['./images/big-image2.png'],
-    technologies: ['html', 'Ruby on Rails', 'css', 'JavaScript'],
-    linkToLiveVersion: 'https://www.nasa.gov/',
-    linkToSource: 'https://github.com/robinbenitezmora/Mobil-Version',
-  },
-];
-
-function openProjects(num) {
-  if (num < projects.length) {
-    let technologiesList = '';
-    projects[num].technologies.forEach((tech) => {
-      technologiesList += `<li>${tech}</li>`;
-    });
-
-    document.getElementById('desktop-project').innerHTML = projects[num].name;
-    document.getElementById('desktop-description').innerHTML = projects[num].description;
-    document.getElementById('desktop-main-image').src = projects[num].image;
-    document.getElementById('desktop-open-live').innerHTML = projects[num].linkToLiveVersion;
-    document.getElementById('desktop-open-source').src = projects[num].linkToSource;
-    document.getElementById('desktop-technology').innerHTML = technologiesList;
-
-    document.getElementById('desktop-modal').classList.add('active');
-  }
-}
-
-function closeProjects(id = null) {
-  if (id != null) {
-    document.getElementById('desktop-modal').classList.remove('active');
-  }
-}
-
-openProjects();
-closeProjects();
+const thirdSheet = document.querySelector('#projects');
+const section3 = document.createElement('div');
+section3.innerHTML = sheet3;
+thirdSheet.appendChild(section2);
