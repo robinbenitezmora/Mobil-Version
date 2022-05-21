@@ -902,7 +902,7 @@ span {
   align-items: center;
   padding: 16px;
   width: 100vw;
-  height: auto;
+  height: 100vh;
   background: #fff;
   border-radius: 16px;
 }
@@ -940,21 +940,30 @@ span {
 }
 
 .detail-image {
-  margin-bottom: 6px;
+  width: 40%;
+  height: auto;
+}
+
+.dereca {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: auto;
 }
 
 .detail-description {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 8px;
+  width: 60%;
+  height: auto;
 }
 
 .detail-technologies {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-left: 1rem;
 }
 
 .detail-buttons {
@@ -963,7 +972,6 @@ span {
   justify-content: center;
   gap: 2rem;
   width: 100%;
-  margin: 1rem;
 }
 
 .btn-detail {
@@ -971,12 +979,14 @@ span {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  font-weight: 500;
   padding: 12px 14px;
   gap: 10px;
-  width: 100%;
-  height: 48px;
+  width: 10rem;
+  height: 3rem;
   border: 1px solid #6070ff;
   border-radius: 8px;
+  text-decoration: none;
 }
 
 .button-see-project {
@@ -1385,6 +1395,15 @@ span {
   .menu__icon {
     transform: scale(0);
   }
+
+  .dereca {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    }
 
   .menu {
     display: flex;

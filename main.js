@@ -20,7 +20,7 @@ const projects = [
   {
     name: 'Multi-Post Stories',
     description: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
-    image: './images/big-image4.png',
+    image: './images/tonic.svg',
     technologies: ['html', 'Ruby on rails', 'css', 'JavaScript'],
     link: 'https://www.tripadvisor.co/Attractions-g652402-Activities-Manizales_Caldas_Department.html',
     source: 'https://github.com/robinbenitezmora/Mobil-Version',
@@ -28,7 +28,7 @@ const projects = [
   {
     name: 'Facebook 360',
     description: 'Exploring the future of media in Facebook first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
-    image: './images/photo-portfolio.svg',
+    image: './images/tonic.svg',
     technologies: ['html', 'Ruby on rails', 'css', 'JavaScript'],
     link: 'https://www.tripadvisor.co/Attractions-g652402-Activities-Manizales_Caldas_Department.html',
     source: 'https://github.com/robinbenitezmora/Mobil-Version',
@@ -36,7 +36,7 @@ const projects = [
   {
     name: 'Uber Navigation',
     description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
-    image: './images/big-image2.png',
+    image: './images/tonic.svg',
     technologies: ['html', 'Ruby on rails', 'css', 'JavaScript'],
     live: 'https://www.tripadvisor.co/Attractions-g652402-Activities-Manizales_Caldas_Department.html',
     source: 'https://github.com/robinbenitezmora/Mobil-Version',
