@@ -891,9 +891,25 @@ span {
   margin-bottom: 8px;
 }
 
-.desktop {
-  min-width: 50%;
-  min-height: 50%;
+#detail {
+  width: 0;
+  display: flex;
+  background-color: #fff;
+  height: 100%;
+  justify-content: center;
+  align-items: flex-start;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-y: hidden;
+  transition: 1s;
+  color: #344563;
+}
+   /*
+  
+  
+   ;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -901,9 +917,13 @@ span {
   background-color: #e5e5e5;
   pointer-events: auto;
   border-radius: 1rem;
-  position: absolute;
+  position: fixed;
   top: 50rem;
   left: 100rem;
+  z-index: 100;
+  top:0;
+  left: 0;
+*/
 }
 
 .desktop.active {

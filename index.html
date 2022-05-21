@@ -63,7 +63,7 @@
             <div class="footer__languages-css footer__languages-text">css</div>
             <div class="footer__languages-javascript footer__languages-text">javaScript</div>
           </div>
-          <button id="openPopup" class="footer__button footer__button-text" type="button">See Project</button>
+          <a class="footer__button footer__button-text" onclick="openDetail(1)" ref="#">See Project</a>
         </div>
       </article>
     </section>
@@ -87,7 +87,7 @@
             <div class="footer__languages-css footer__languages-text">css</div>
             <div class="footer__languages-javascript footer__languages-text">javaScript</div>
           </div>
-        <a class="footer__button footer__button-text" href="#">See Project</a>
+          <a class="footer__button footer__button-text" onclick="openDetail(2)" ref="#">See Project</a>
         </div>
       </article>
       <img class="third-sheet__area-big-image" src="./images/big-image4.png" alt="personal-image">
@@ -113,7 +113,7 @@
             <div class="footer__languages-css footer__languages-text">css</div>
             <div class="footer__languages-javascript footer__languages-text">javaScript</div>
           </div>
-          <a class="footer__button footer__button-text" href="#">See Project</a>
+          <a class="footer__button footer__button-text" onclick="openDetail(3)" ref="#">See Project</a>
         </div>
       </article>
     </section>
@@ -136,7 +136,7 @@
             <div class="footer__languages-css footer__languages-text">css</div>
             <div class="footer__languages-javascript footer__languages-text">javaScript</div>
           </div>
-          <a class="footer__button footer__button-text" href="#">See Project</a>
+          <a class="footer__button footer__button-text" onclick="openDetail(4)" ref="#">See Project</a>
         </div>
       </article>
       <img class="fifth-sheet__area-big-image" src="./images/big-image2.png" alt="personal-image">
@@ -197,7 +197,7 @@
       </div>
     </form>
       <div class="end-line"><img src="./images/end-line.png" alt="end-line"></div>
-  </section>
+  </section><!--
   <section class="desktop" id="desktop-modal">
     <section class="desktop__area">
       <article>
@@ -213,11 +213,15 @@
             <img class="desktop__area-frame-dot" src="./images/dot.png" alt="dot">
             <h5 class="desktop__area-frame-BackEndDev">2015</h5>
           </div>
-          <img class="desktop__area-big-image" src="./images/tonic.svg" alt="project_tonic">
+          <img class="desktop__area-big-image" src="./images/tonic.svg" alt="project_tonic" id="detailImage">
         </div>
         <div class="desktop-footer">
-          <p class="desktop__paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</p>
+          <p class="desktop__paragraph" id="desktop-modal">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</p>
           <div class="desktop-footer-buttons" id="desktop-technology">
+            <ul id="detailLanguajes">
+              <li>html</li>
+              <li>css</li>
+            </ul>
             <div class="footer__languages-desktop-row1">
               <div class="footer__languages-html footer__languages-text">html</div>
               <div class="footer__languages-css footer__languages-text">css</div>
@@ -230,16 +234,47 @@
             </div>
             <div class="desktop__buttons">
               <div class="desktop__first-button">
-                <a class="desktop__button1 desktop__button-text" href="" id="desktop-open-live">See Live<span><img src="./icons/icon-export.png" alt="icon-export"></span></a>
+                <a class="desktop__button1 desktop__button-text" href="" id="desktop-open-live">See Live<span><img src="./icons/icon-export.png" alt="icon-export" id="btnDetailLive"></span></a>
               </div>
               <div class="desktop__first-button">
-                <a class="desktop__button2 desktop__button-text" id="desktop-source" href="">See Source<span><img src="./icons/github.png" alt="github"></span></a>
+                <a class="desktop__button2 desktop__button-text" id="desktop-source" href="" id="btnDetailSource">See Source<span><img src="./icons/github.png" alt="github"></span></a>
               </div>
             </div>
           </div>
         </div>
       </article>    </section>
-  </section>
+  </section>-->
+
+  <div class="detail" id="detail">
+    <div class="detail-content" id="detailContent">
+      <div class="title-model">
+        <h3 class="detail-title" id="detailTitle">Profesional Art Printing Data</h3>
+        <a href="javascript:void(0)" class="btn-close" onclick="closeDetail()">&times;</a>
+      </div>
+      <ul class="detail-lenguajes" id="detailLanguajes">
+      </ul>
+      <img src="./images/MultiSotry.png" class="detail-image" id="detailImage" alt="Web pag image">
+      <div class="dereca">
+        <p class="detail-description" id="detailDescription">
+          A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
+          industry's standard
+        </p>
+        <div class="detail-buttons" id="detail-buttons">
+          <a href="#" id="btnDetailLive" target="_blank" class="btn-detail button-see-project">See Live<i
+              class="fas fa-link"></i></a>
+          <a href="#" id="btnDetailSource" class="btn-detail button-see-project" target="_blank">
+            See Source <i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
   <script src="main.js"></script>
 </body>
 </html>
