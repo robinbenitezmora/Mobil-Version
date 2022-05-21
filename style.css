@@ -933,7 +933,6 @@ span {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  margin-left: 30rem;
   align-items: center;
   width: 100%;
   height: 100%;
