@@ -880,22 +880,19 @@ span {
 }
 
 #detail {
-  width: 0;
-  display: flex;
-  flex-direction: column;
+  width: 100%;
   background-color: #fff;
   height: 100vh;
-  justify-content: center;
-  align-items: flex-start;
   position: fixed;
-  top: 0;
+  top: -10%;
   left: 0;
   overflow-y: scroll;
-  transition: 1s;
   color: #344563;
-  z-index: 100;
+  margin: 10px;
+
 }
 
+/*
 .detail-content {
   display: flex;
   flex-direction: column;
@@ -906,6 +903,7 @@ span {
   background: #fff;
   border-radius: 16px;
 }
+*/
 
 .title-model {
   display: flex;
@@ -914,7 +912,6 @@ span {
   align-items: center;
   margin: 4px 1rem;
   font-family: 'Poppins', sans-serif;
-  width: 85vw;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -936,26 +933,25 @@ span {
   align-items: center;
   width: 100%;
   height: 100%;
-  margin-left: 5rem;
 }
 
 .detail-image {
-  width: 30%;
+  width: 100%;
+  height: 200px;
 }
 
 .dereca {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: -7%;
   height: auto;
-}
+} 
 
 .detail-description {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  width: 60%;
   height: auto;
 }
 
@@ -964,6 +960,7 @@ span {
   flex-direction: row;
   justify-content: center;
   margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 .detail-buttons {
@@ -1495,4 +1492,70 @@ span {
   .img:hover {
     transform: scale(1.5);
   }
+
+
+  .col-1 {
+    width: 8.33%;
+  }
+
+  .col-2 {
+    width: 16.66%;
+  }
+
+  .col-3 {
+    width: 25%;
+  }
+
+  .col-4 {
+    width: 33.33%;
+  }
+
+  .col-5 {
+    width: 41.66%;
+  }
+
+  .col-6 {
+    width: 50%;
+  }
+
+  .col-7 {
+    width: 58.33%;
+  }
+
+  .col-8 {
+    width: 66.66%;
+  }
+
+  .col-9 {
+    width: 75%;
+  }
+
+  .col-10 {
+    width: 83.33%;
+  }
+
+  .col-11 {
+    width: 91.66%;
+  }
+
+  .col-12 {
+    width: 100%;
+  }
+
+
+}
+
+
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  width: 100%;
 }

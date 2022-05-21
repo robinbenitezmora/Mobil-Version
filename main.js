@@ -57,7 +57,8 @@ const openDetail = (projectNumber = null) => {
     let lanShow = '';
     lan.forEach((element) => { lanShow += `<li>${element}</li>`; });
 
-    detail.style.width = '100%';
+    detail.style.width = '80%';
+    detail.style.margin = '10%';
     detailTitle.innerText = projects[projectNumber].name;
     detailDescription.innerText = projects[projectNumber].description;
     detailImage.src = projects[projectNumber].image;
