@@ -1,7 +1,7 @@
-* {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 header {
@@ -882,7 +882,7 @@ span {
 #detail {
   width: 100%;
   background-color: #fff;
-  height: 100vh;
+  height: 80vh;
   position: fixed;
   top: -10%;
   left: 0;
@@ -907,23 +907,30 @@ span {
 
 .title-model {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 4px 1rem;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  color: #091e42;
+  padding-right: 20px;
+  height: 32px;
 }
 
 .btn-close {
-  font-size: 4rem;
-  font-weight: 400;
+  cursor: pointer;
+  border: none;
+  background: none;
+  outline: none;
+  color: grey;
+  font-size: 40px;
+  font-weight: 500;
+  padding-right: 20px;
   text-decoration: none;
-  color: #172b4d;
+}
+
+.detail-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  color: #091e42;
+  padding-left: 20px;
 }
 
 .details__area-frame {
@@ -944,7 +951,6 @@ span {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  margin-left: -7%;
   height: auto;
 } 
 
@@ -958,7 +964,7 @@ span {
 .detail-technologies {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   margin-bottom: 1.5rem;
   margin-top: 1.5rem;
 }
@@ -966,7 +972,7 @@ span {
 .detail-buttons {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 2rem;
   width: 100%;
 }
@@ -1388,6 +1394,32 @@ span {
   text-decoration: none;
 }
 
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  width: 100%;
+}
+
+#overlay {
+  opacity: 0;
+  position: fixed;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  backdrop-filter: blur(5px);
+  background-color: rgb(0 0 0 / 50%);
+}
+
+
 @media (min-width: 769px) {
   .menu__icon {
     transform: scale(0);
@@ -1396,10 +1428,7 @@ span {
   .dereca {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
     height: auto;
-    padding: 2rem;
   }
 
   .menu {
@@ -1543,19 +1572,4 @@ span {
   }
 
 
-}
-
-
-
-
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-[class*="col-"] {
-  float: left;
-  padding: 15px;
-  width: 100%;
 }
