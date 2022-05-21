@@ -1,4 +1,4 @@
-/*const open = document.querySelector('.menu__icon');
+const open = document.querySelector('.menu__icon');
 open.addEventListener('click', () => {
   document.getElementById('slide_menu').classList.add('active');
 });
@@ -7,7 +7,7 @@ const close = document.querySelector('#slide_menu');
 close.addEventListener('click', () => {
   document.getElementById('slide_menu').classList.remove('active');
 });
-*/
+
 const projects = [
   {
     name: 'Tonic',
@@ -198,8 +198,8 @@ const openDetail = (projectNumber = null) => {
   if (projectNumber != null) {
     const lan = projects[projectNumber].technologies;
     let lanShow = '';
-
     lan.forEach((element) => { lanShow += `<li>${element}</li>`; });
+
     detail.style.width = '100%';
     detailTitle.innerText = projects[projectNumber].name;
     detailDescription.innerText = projects[projectNumber].description;
