@@ -888,7 +888,6 @@ span {
   justify-content: center;
   align-items: flex-start;
   position: fixed;
-  
   top: 0;
   left: 0;
   overflow-y: hidden;
@@ -962,9 +961,7 @@ span {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  justify-items: auto;
   gap: 2rem;
-  
   width: 100%;
   margin: 1rem;
 }
