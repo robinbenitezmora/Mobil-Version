@@ -63,7 +63,7 @@
             <div class="footer__languages-css footer__languages-text">css</div>
             <div class="footer__languages-javascript footer__languages-text">javaScript</div>
           </div>
-          <a class="footer__button footer__button-text" href="#">See Project</a>
+          <a class="footer__button footer__button-text" onclick="openDetail(0)" href="#">See Project</a>
         </div>
       </article>
     </section>
@@ -87,7 +87,7 @@
             <div class="footer__languages-css footer__languages-text">css</div>
             <div class="footer__languages-javascript footer__languages-text">javaScript</div>
           </div>
-        <a class="footer__button footer__button-text" href="#">See Project</a>
+          <a class="footer__button footer__button-text" onclick="openDetail(1)" href="#">See Project</a>
         </div>
       </article>
       <img class="third-sheet__area-big-image" src="./images/big-image4.png" alt="personal-image">
@@ -113,7 +113,7 @@
             <div class="footer__languages-css footer__languages-text">css</div>
             <div class="footer__languages-javascript footer__languages-text">javaScript</div>
           </div>
-          <a class="footer__button footer__button-text" href="#">See Project</a>
+          <a class="footer__button footer__button-text" onclick="openDetail(2)" href="#">See Project</a>
         </div>
       </article>
     </section>
@@ -136,7 +136,7 @@
             <div class="footer__languages-css footer__languages-text">css</div>
             <div class="footer__languages-javascript footer__languages-text">javaScript</div>
           </div>
-          <a class="footer__button footer__button-text" href="#">See Project</a>
+          <a class="footer__button footer__button-text" onclick="openDetail(3)" href="#">See Project</a>
         </div>
       </article>
       <img class="fifth-sheet__area-big-image" src="./images/big-image2.png" alt="personal-image">
@@ -198,6 +198,49 @@
     </form>
       <div class="end-line"><img src="./images/end-line.png" alt="end-line"></div>
   </section>
+  
+<div class="detail" id="detail">
+  <div class="detail-content" id="detailContent">
+    <div class="title-model">
+      <h3 class="detail-title" id="detailTitle">Profesional Art Printing Data</h3>
+      <a href="javascript:void(0)" class="btn-close" onclick="closeDetail()">&times;</a>
+    </div>
+    <div class="details__area-frame">
+      <h4 class="fifth-sheet__area-frame-canopy">Facebook</h4>
+      <img class="fifth-sheet__area-frame-dot" src="./images/dot.png" alt="dot">
+      <h4 class="fifth-sheet__area-frame-BackEndDev">Lead Developer</h4>
+      <img class="fifth-sheet__area-frame-dot" src="./images/dot.png" alt="dot">
+      <h5 class="fifth-sheet__area-frame-BackEndDev">2015</h5>
+    </div>
+    <img src="./images/MultiSotry.png" class="detail-image" id="detailImage" alt="Web pag image">
+    <div class="dereca">
+      <p class="detail-description" id="detailDescription">
+        A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
+        industry's standard
+      </p>
+      <div class="detail-user">
+        <div class="detail-technologies">
+          <div class="footer__languages-html footer__languages-text">html</div>
+          <div class="footer__languages-css footer__languages-text">Ruby on rails</div>
+          <div class="footer__languages-css footer__languages-text">css</div>
+          <div class="footer__languages-javascript footer__languages-text">javaScript</div>
+        </div>
+        <div class="detail-buttons" id="detail-buttons">
+          <a href="#" id="btnDetailLive" target="_blank" class="btn-detail button-see-project">See Live<img src="./icons/icon-export.png" alt="icone-export"
+              class="fas fa-link"></a>
+          <a href="#" id="btnDetailSource" class="btn-detail button-see-project" target="_blank">
+            See Source <img src="./icons/github.svg" class="fa-brands fa-github" alt="github"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
   <script src="main.js"></script>
 </body>
 </html>
