@@ -946,7 +946,7 @@ span {
   justify-content: flex-start;
   margin-left: -7%;
   height: auto;
-} 
+}
 
 .detail-description {
   display: flex;
@@ -1493,7 +1493,6 @@ span {
     transform: scale(1.5);
   }
 
-
   .col-1 {
     width: 8.33%;
   }
@@ -1541,12 +1540,7 @@ span {
   .col-12 {
     width: 100%;
   }
-
-
 }
-
-
-
 
 .row::after {
   content: "";
