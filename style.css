@@ -198,12 +198,6 @@ body {
   animation: robin 1s;
 }
 
-@keyframes robin {
-  100% {
-    transform: translate(30%);
-  }
-}
-
 .second-sheet__area-title {
   display: flex;
   font-family: 'Poppins', sans-serif;
@@ -326,8 +320,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 200px;
-  height: 60px;
   color: #fff;
   border: 1px solid red;
   background-color: blue;
@@ -636,8 +628,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 200px;
-  height: 60px;
   color: #fff;
   border: 1px solid greenyellow;
   background-color: #6070ff;
@@ -860,8 +850,6 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 200px;
-  height: 60px;
   color: #fff;
   border: 1px solid red;
   background-color: blue;
@@ -1053,12 +1041,6 @@ span {
   text-decoration: none;
 }
 
-@keyframes robin {
-  100% {
-    transform: translate(30%);
-  }
-}
-
 .desktop__area-title {
   display: flex;
   font-family: 'Poppins', sans-serif;
@@ -1180,8 +1162,6 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 200px;
-  height: 60px;
   color: #fff;
   border: 1px solid red;
   background-color: blue;
@@ -1206,8 +1186,6 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 200px;
-  height: 60px;
   color: #fff;
   border: 1px solid red;
   background-color: blue;
@@ -1269,12 +1247,6 @@ span {
   display: flex;
   align-items: center;
   margin: 16px;
-}
-
-@keyframes robin {
-  100% {
-    transform: translate(30%);
-  }
 }
 
 .popup__area-title {
@@ -1364,8 +1336,6 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 200px;
-  height: 60px;
   color: #fff;
   border: 1px solid red;
   background-color: blue;
@@ -1391,8 +1361,6 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 200px;
-  height: 60px;
   color: #fff;
   border: 1px solid red;
   background-color: blue;
